@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 
-export class blog extends Component {
+export class Blog extends Component {
   render() {
     return (
       <div>
-        blog
+        Blog
       </div>
     )
   }
 }
 
-export default blog
+export default Blog
