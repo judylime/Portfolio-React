@@ -8,8 +8,8 @@ import {
   Drawer,
   Content
 } from 'react-mdl';
-import Main from './components/Main'
-import { Link } from 'react-router-dom'
+import Main from './components/Main';
+import { Link } from 'react-router-dom';
 
 import './App.css';
 import { Route } from 'react-router-dom';
@@ -20,25 +20,28 @@ function App() {
     <div className='demo-big-content'>
       <Layout>
         <Header className='header-color' waterfall hideTop>
-          <HeaderRow title='Title'>
-            <Navigation>
-              <Link to='/aboutme'>About Me</Link>
-              <Link to='/projects'>Projects</Link>
-              <Link to='/blog'>Blog</Link>
-              <Link to='/contact'>Contact</Link>
-            </Navigation>
+          <HeaderRow title='Judy'>
             <Textfield
+              className='search'
               value=''
               onChange={() => {}}
               label='Search3'
               expandable
               expandableIcon='search'
             />
+            <Navigation>
+              <Link to='/home'>Home</Link>
+              <Link to='/About'>About</Link>
+              <Link to='/projects'>Projects</Link>
+              <Link to='/blog'>Blog</Link>
+              <Link to='/contact'>Contact</Link>
+            </Navigation>
           </HeaderRow>
         </Header>
-        <Drawer title='Title'>
+        <Drawer title='Judy'>
           <Navigation>
-            <Link to='/aboutme'>About Me</Link>
+            <Link to='/home'>Home</Link>
+            <Link to='/About'>About</Link>
             <Link to='/projects'>Projects</Link>
             <Link to='/blog'>Blog</Link>
             <Link to='/contact'>Contact</Link>

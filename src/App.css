@@ -13,6 +13,7 @@
     #833ab4
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 .landing-grid {
   background: #833ab4; /* fallback for old browsers */
   background: -webkit-linear-gradient(
@@ -35,6 +36,80 @@
   height: 100%;
 }
 
+/* About page css */
+.about-right-col {
+
+  padding: 2em;
+}
+
+.progress-bar {
+  height: 2rem;
+}
+
+.progress-bar h5 {
+ color: grey;
+}
+
+.progress-bar ProgressBar {
+  
+}
+/* Projects page css */
+.projects-grid {
+  display: flex;
+}
+
+/* contact page css */
+.contact-body {
+  margin: auto;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  padding-top: 2em;
+}
+
+.contact-grid {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.contact-grid h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.contact-grid p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.contact-grid hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
+.contact-list i {
+  font-size: 2rem;
+  padding-right: 2rem;
+  padding-left: 1rem;
+}
+
+.social-media {
+  font-size: 80%;
+  padding-top: 2rem;
+  padding-left: 2rem;
+}
+
+.social-media i {
+  padding: 1rem;
+}
+/* contact page css */
+
 .avatar-img {
   height: 250px;
   padding-top: 5em;
@@ -48,8 +123,8 @@
   border-radius: 10px;
 }
 
-.banner-text h1 {
-  font-size: 66px;
+.banner-text h2 {
+  font-size: 50px;
   font-weight: bold;
   color: white;
 }
@@ -63,7 +138,7 @@
 .banner-text p {
   color: white;
   padding: 1em;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 .social-links {
