@@ -30,32 +30,110 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   text-align: center;
   position: fixed;
-  top: 0;
+  top: 0px;
   left: 0;
   width: 100%;
   height: 100%;
+  padding: 2em;
+}
+.page-title {
+  text-align: center;
+  position: fixed;
+  top: 5em;
+  justify-content: center;
+  left: '50%';
+  transform: 'translate(-50%, -50%)';
+}
+
+.page-title h2 {
+  position: fixed;
+  border-top: 3px solid grey;
+  width: 15%;
+  padding-top: 0em;
+  margin: 0;
+}
+
+.page-title hr {
+  text-align: center;
+  position: fixed;
+  border-top: 3px solid grey;
+  width: 15%;
+  padding-top: 10px;
+  margin-top: 50px;
+}
+
+.page-content {
+  display: flex;
+  padding: 2rem;
 }
 
 /* About page css */
-.about-right-col {
-
-  padding: 2em;
+.about-grid {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: center;
 }
+
+.follow-me {
+  font-size: 1.3em;
+}
+
+.follow-me i {
+  padding: 0.5em;
+  font-size: 1.5em;
+}
+
+.about-right-col {
+  text-align: center;
+  justify-content: center;
+  width: 80%;
+  height: 100%;
+  background: white;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.about-right-col h2 {
+  font-family: 'Anton', sans-serif;
+}
+
+.about-right-col p {
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+}
+
+.about-right-col hr {
+  border-top: 5px dotted black;
+  width: 50%;
+  margin: auto;
+}
+
 
 .progress-bar {
-  height: 2rem;
+  text-align: center;
 }
 
-.progress-bar h5 {
- color: grey;
+.progress-bar p {
+  font-size: 120%;
+  color: grey;
+  font-style: normal;
+  padding-top: 0.3em;
+  text-align: left;
 }
 
-.progress-bar ProgressBar {
-  
-}
 /* Projects page css */
+
 .projects-grid {
   display: flex;
+  padding-top: 2rem;
+  justify-content: center;
+}
+
+/* Blog page css */
+.blog-grid {
+  display: flex;
+  padding-top: 2rem;
+  justify-content: center;
 }
 
 /* contact page css */
@@ -113,20 +191,22 @@
 .avatar-img {
   height: 250px;
   padding-top: 5em;
+  padding-bottom: 3.5em;
 }
 
 .banner-text {
   background-color: black;
   opacity: 0.8;
-  width: 75%;
+  width: 65%;
   margin: auto;
   border-radius: 10px;
 }
 
 .banner-text h2 {
-  font-size: 50px;
+  font-size: 58px;
   font-weight: bold;
   color: white;
+  padding-top: 8px;
 }
 
 .banner-text hr {
@@ -150,6 +230,6 @@
 
 .social-links i {
   color: white;
-  font-size: 3.5em;
+  font-size: 3em;
   padding: 8px;
 }

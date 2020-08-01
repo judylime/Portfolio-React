@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
-import {Grid, Cell} from 'react-mdl'
+import React, { Component } from 'react';
+import { Grid, Cell, Button } from 'react-mdl';
 
 export class LandingPage extends Component {
   render() {
     return (
-      <div style={{ width: '100%', margin: 'auto' }}>
+      <div style={{ width: '100%', margin: 'auto', top: '50%' }}>
         <Grid className='landing-grid'>
           <Cell col={12}>
             <img
@@ -26,7 +26,15 @@ export class LandingPage extends Component {
                   rel='nooperner noreferrer'
                   target='_blank'
                 >
-                  <i className='fa fa-linkedin-square' aria-hidden='true'></i>
+                  <i className='fa fa-linkedin' aria-hidden='true'></i>
+                </a>
+                {/* PortfolioSite */}
+                <a
+                  href='https://judylime.github.io/Portfolio-JS/'
+                  rel='nooperner noreferrer'
+                  target='_blank'
+                >
+                  <i className='fa fa-globe' aria-hidden='true'></i>
                 </a>
                 {/* Github */}
                 <a
@@ -34,8 +42,9 @@ export class LandingPage extends Component {
                   rel='nooperner noreferrer'
                   target='_blank'
                 >
-                  <i className='fa fa-github-square' aria-hidden='true'></i>
+                  <i className='fa fa-github' aria-hidden='true'></i>
                 </a>
+
                 {/* Freecodecamp */}
                 <a
                   href='https://www.freecodecamp.org/judylime'
@@ -44,16 +53,12 @@ export class LandingPage extends Component {
                 >
                   <i className='fa fa-free-code-camp' aria-hidden='true'></i>
                 </a>
-                {/* Youtube */}
-                <a
-                  href='https://www.youtube.com/channel/UCCIWB4LVMnQCLgBr9QUpbvw/featured?view_as=subscriber'
-                  rel='nooperner noreferrer'
-                  target='_blank'
-                >
-                  <i className='fa fa-youtube-square' aria-hidden='true'></i>
-                </a>
               </div>
             </div>
+            <br />
+            <br />
+            <Button raised colored>View My Work</Button>
+              
           </Cell>
         </Grid>
       </div>
@@ -61,4 +66,4 @@ export class LandingPage extends Component {
   }
 }
 
-export default LandingPage
+export default LandingPage;

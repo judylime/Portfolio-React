@@ -20,7 +20,7 @@ function App() {
     <div className='demo-big-content'>
       <Layout>
         <Header className='header-color' waterfall hideTop>
-          <HeaderRow title='Judy'>
+          <HeaderRow title={<Link style={{textDecoration: 'none', color: 'white'}} to="/" >My Portfolio</Link>} scroll>
             <Textfield
               className='search'
               value=''
@@ -30,7 +30,6 @@ function App() {
               expandableIcon='search'
             />
             <Navigation>
-              <Link to='/home'>Home</Link>
               <Link to='/About'>About</Link>
               <Link to='/projects'>Projects</Link>
               <Link to='/blog'>Blog</Link>
@@ -38,9 +37,8 @@ function App() {
             </Navigation>
           </HeaderRow>
         </Header>
-        <Drawer title='Judy'>
+        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/" >My Portfolio</Link>}>
           <Navigation>
-            <Link to='/home'>Home</Link>
             <Link to='/About'>About</Link>
             <Link to='/projects'>Projects</Link>
             <Link to='/blog'>Blog</Link>
@@ -50,8 +48,10 @@ function App() {
         <Content>
           <div className='page-content' />
           <Main />
+          
         </Content>
       </Layout>
+      
     </div>
   );
 }

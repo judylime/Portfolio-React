@@ -1,17 +1,6 @@
 import React, { Component } from 'react';
-import {
-  Tabs,
-  Tab,
-  Grid,
-  Cell,
-  Card,
-  CardTitle,
-  CardActions,
-  Button,
-  CardMenu,
-  IconButton,
-  CardText
-} from 'react-mdl';
+import { Tabs, Tab, Grid, Cell } from 'react-mdl';
+import ProjectsTemplate from './ProjectsTemplate';
 
 class Projects extends Component {
   constructor(props) {
@@ -22,80 +11,42 @@ class Projects extends Component {
   toggleCategories() {
     if (this.state.activeTab === 0) {
       return (
-        <div className='projects-grid'>
-
-          // Project 1
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle
-              style={{
-                color: '#fff',
-                height: '176px',
-                background:
-                  'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'
-              }}
-            >
-              DevConnector
-            </CardTitle>
-            <CardText>
-              Build a social network with MongoDB , Express, React, Redux &
-              Node.js and deploy the full stack application to Heroku. MEAN
-              stack cut latency by 40% and increased effectiveness of database
-              administrators by 20%.
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
-              <IconButton name='share' />
-            </CardMenu>
-          </Card>
-          
-          // Project 2
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-            <CardTitle
-              style={{
-                color: '#fff',
-                height: '176px',
-                background:
-                  'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'
-              }}
-            >
-              DevConnector
-            </CardTitle>
-            <CardText>
-              Build a social network with MongoDB , Express, React, Redux &
-              Node.js and deploy the full stack application to Heroku. MEAN
-              stack cut latency by 40% and increased effectiveness of database
-              administrators by 20%.
-            </CardText>
-            <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
-            </CardActions>
-            <CardMenu style={{ color: '#fff' }}>
-              <IconButton name='share' />
-            </CardMenu>
-          </Card>
-
+        <div className='page-content'>
+          <Grid>
+            <ProjectsTemplate />
+            <ProjectsTemplate />
+            <ProjectsTemplate />
+          </Grid>
         </div>
       );
     } else if (this.state.activeTab === 1) {
       return (
-        <div>
-          <h1>This is React</h1>
+        <div className='page-content'>
+          <Grid >
+            <ProjectsTemplate />
+            <ProjectsTemplate />
+            <ProjectsTemplate />
+          </Grid>
         </div>
       );
     } else if (this.state.activeTab === 2) {
       return (
-        <div>
-          <h1>This is MongoDB</h1>
+        <div className='page-content'>
+          <Grid >
+            <ProjectsTemplate />
+            <ProjectsTemplate />
+            <ProjectsTemplate />
+          </Grid>
         </div>
       );
     } else if (this.state.activeTab === 3) {
       return (
-        <div>
-          <h1>This is Strip</h1>
+        <div className='page-content'>
+          <Grid>
+            <ProjectsTemplate />
+            <ProjectsTemplate />
+            <ProjectsTemplate />
+          </Grid>
         </div>
       );
     }
@@ -103,24 +54,37 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className='category-tabs'>
-        <Tabs
-          activeTab={this.state.activeTab}
-          onChange={(tabId) => this.setState({ activeTab: tabId })}
-          ripple
+      <div className='projects-grid'>
+        <div
+          className='page-title'
+          style={{
+            left: '50%',
+            display: 'flex'
+          }}
         >
-          <Tab>JavaScript</Tab>
-          <Tab>React</Tab>
-          <Tab>MongoDB</Tab>
-          <Tab>Strip</Tab>
-        </Tabs>
+          <h2>PROJECTS</h2>
+          <hr />
+          <br />
+        </div>
 
-        <Grid >
-          <Cell col={12}>
-            <div className='content'>{this.toggleCategories()} </div>
-          </Cell>
-        </Grid>
-        {this.toggleCategories()}
+        <div className='category-tabs'>
+          <Tabs
+            activeTab={this.state.activeTab}
+            onChange={(tabId) => this.setState({ activeTab: tabId })}
+            ripple
+          >
+            <Tab>All</Tab>
+            <Tab>JavaScript</Tab>
+            <Tab>React</Tab>
+            <Tab>MongoDB</Tab>
+          </Tabs>
+
+          <Grid>
+            <Cell col={12}>
+              <div className='content'>{this.toggleCategories()} </div>
+            </Cell>
+          </Grid>
+        </div>
       </div>
     );
   }
