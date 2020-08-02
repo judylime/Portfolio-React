@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell } from 'react-mdl';
 import ProjectsTemplate from './ProjectsTemplate';
-
 import DevConnector from '../image/DevConnector.jpg';
 import Movie from '../image/Movie.jpg';
+import Restaurant from '../image/Restaurant.jpg';
 
 class Projects extends Component {
   constructor(props) {
@@ -17,23 +17,35 @@ class Projects extends Component {
         <div className='page-content'>
           <Grid>
             <ProjectsTemplate
-              className='MongoDB Express React Node'
               img={DevConnector}
-              projects='DevConnector'
+              projects='DevCommunity'
               description='Build a social network with MongoDB , Express, React, Redux &
               Node.js and deploy the full stack application to Heroku.'
               GithubURL='https://github.com/judylime/DevConnector-MERN_Stack'
               DemoURL='https://calm-tor-62311.herokuapp.com/'
             />
             <ProjectsTemplate
-              className=' React'
               img={Movie}
               projects='Movie'
-              description='Build a modern and beautiful looking Movie Application with React Hooks, free APIs, and Bootstrap and deploy to Netlify'
+              description='Build a modern and beautiful looking Movie Application with React Hooks, free APIs, and Bootstrap and deploy to Netlify.'
               GithubURL='https://github.com/judylime/Movie_App-React_Hooks_APIs'
               DemoURL='https://judy-movie.netlify.app/'
             />
-            <ProjectsTemplate />
+            <ProjectsTemplate
+              img={Restaurant}
+              projects='Restaurant'
+              description='Build a modern and beautiful looking Restaurant Website with Bootstrap and host to GitHub Pages.'
+              GithubURL='https://github.com/judylime/Restaurant_bullseye-bootstrap'
+              DemoURL='https://judylime.github.io/Restaurant_bullseye-bootstrap/'
+            />
+            <ProjectsTemplate
+              img={Restaurant}
+              projects='Restaurant'
+              description='Build a modern and beautiful looking Restaurant Website with Bootstrap and host to GitHub Pages.'
+              GithubURL='https://github.com/judylime/Restaurant_bullseye-bootstrap'
+              DemoURL='https://judylime.github.io/Restaurant_bullseye-bootstrap/'
+            />
+
           </Grid>
         </div>
       );
@@ -42,8 +54,7 @@ class Projects extends Component {
         <div className='page-content'>
           <Grid>
             <ProjectsTemplate />
-            <ProjectsTemplate />
-            <ProjectsTemplate />
+
           </Grid>
         </div>
       );
@@ -52,14 +63,21 @@ class Projects extends Component {
         <div className='page-content'>
           <Grid>
             <ProjectsTemplate
-              projects='DevConnecter'
+              img={DevConnector}
+              projects='DevCommunity'
               description='Build a social network with MongoDB , Express, React, Redux &
               Node.js and deploy the full stack application to Heroku.'
-              GithubURL='http://findmatthew.com/'
-              DemoURL='http://findmatthew.com/'
+              GithubURL='https://github.com/judylime/DevConnector-MERN_Stack'
+              DemoURL='https://calm-tor-62311.herokuapp.com/'
             />
-            <ProjectsTemplate />
-            <ProjectsTemplate />
+            <ProjectsTemplate
+              img={Movie}
+              projects='Movie'
+              description='Build a modern and beautiful looking Movie Application with React Hooks, free APIs, and Bootstrap and deploy to Netlify.'
+              GithubURL='https://github.com/judylime/Movie_App-React_Hooks_APIs'
+              DemoURL='https://judy-movie.netlify.app/'
+            />
+
           </Grid>
         </div>
       );
@@ -67,9 +85,51 @@ class Projects extends Component {
       return (
         <div className='page-content'>
           <Grid>
-            <ProjectsTemplate />
-            <ProjectsTemplate />
-            <ProjectsTemplate />
+            <ProjectsTemplate
+              img={DevConnector}
+              projects='DevCommunity'
+              description='Build a social network with MongoDB , Express, React, Redux &
+              Node.js and deploy the full stack application to Heroku.'
+              GithubURL='https://github.com/judylime/DevConnector-MERN_Stack'
+              DemoURL='https://calm-tor-62311.herokuapp.com/'
+            />
+            <ProjectsTemplate
+              img={Movie}
+              projects='Movie'
+              description='Build a modern and beautiful looking Movie Application with React Hooks, free APIs, and Bootstrap and deploy to Netlify.'
+              GithubURL='https://github.com/judylime/Movie_App-React_Hooks_APIs'
+              DemoURL='https://judy-movie.netlify.app/'
+            />
+          </Grid>
+        </div>
+      );
+    } else if (this.state.activeTab === 4) {
+      return (
+        <div className='page-content'>
+          <Grid>
+            <ProjectsTemplate
+              img={DevConnector}
+              projects='DevCommunity'
+              description='Build a social network with MongoDB , Express, React, Redux &
+              Node.js and deploy the full stack application to Heroku.'
+              GithubURL='https://github.com/judylime/DevConnector-MERN_Stack'
+              DemoURL='https://calm-tor-62311.herokuapp.com/'
+            />
+          </Grid>
+        </div>
+      );
+    } else if (this.state.activeTab === 5) {
+      return (
+        <div className='page-content'>
+          <Grid>
+            <ProjectsTemplate
+              img={DevConnector}
+              projects='DevCommunity'
+              description='Build a social network with MongoDB , Express, React, Redux &
+              Node.js and deploy the full stack application to Heroku.'
+              GithubURL='https://github.com/judylime/DevConnector-MERN_Stack'
+              DemoURL='https://calm-tor-62311.herokuapp.com/'
+            />
           </Grid>
         </div>
       );
@@ -79,7 +139,7 @@ class Projects extends Component {
   render() {
     return (
       <div className='projects-grid'>
-        <div
+        {/* <div
           className='page-title'
           style={{
             left: '50%',
@@ -89,7 +149,7 @@ class Projects extends Component {
           <h2>PROJECTS</h2>
           <hr />
           <br />
-        </div>
+        </div> */}
 
         <div className='category-tabs'>
           <Tabs
@@ -99,8 +159,10 @@ class Projects extends Component {
           >
             <Tab>All</Tab>
             <Tab>JavaScript</Tab>
+            <Tab>Bootstrap</Tab>
             <Tab>React</Tab>
             <Tab>MongoDB</Tab>
+            <Tab>Node</Tab>
           </Tabs>
 
           <Grid>

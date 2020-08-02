@@ -20,15 +20,16 @@ function App() {
     <div className='demo-big-content'>
       <Layout>
         <Header className='header-color' waterfall hideTop>
-          <HeaderRow title={<Link style={{textDecoration: 'none', color: 'white'}} to="/" >My Portfolio</Link>} scroll>
-            <Textfield
+          <HeaderRow title={<Link style={{textDecoration: 'none', color: 'white', shadow:'0'}} to="/" >My Portfolio</Link>} scroll>
+            {/* Search Bar */}
+            {/* <Textfield
               className='search'
               value=''
               onChange={() => {}}
               label='Search3'
               expandable
               expandableIcon='search'
-            />
+            /> */}
             <Navigation>
               <Link to='/About'>About</Link>
               <Link to='/projects'>Projects</Link>

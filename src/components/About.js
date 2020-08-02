@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Grid, Cell, ProgressBar } from 'react-mdl';
 import AboutSkills from './AboutSkills';
 
-
 class About extends Component {
   render() {
     return (
@@ -12,14 +11,17 @@ class About extends Component {
         dataDelay='.5s'
         style={{ animationDelay: '0.5s' }}
       >
-        <div className='page-title' style={{
-          left: '50%', 
-          display: 'flex',
-        }} >
+        {/* <div
+          className='page-title'
+          style={{
+            left: '50%',
+            display: 'flex'
+          }}
+        >
           <h2>ABOUT</h2>
           <hr />
           <br />
-        </div>
+        </div> */}
         <div className='page-content'>
           <Grid>
             <Cell col={6}>
@@ -40,13 +42,6 @@ class About extends Component {
                   have serious passion for UI effects, animations and creating
                   intuitive, dynamic user experiences.
                 </p>
-                <h5 className='follow-me'>
-                  Follow me:
-                  <i className='fa fa-github-square ' aria-hidden='true'></i>
-                  <i className='fa fa-linkedin-square ' aria-hidden='true'></i>
-                  <i className='fa fa-twitter-square ' aria-hidden='true'></i>
-                  <i className='fa fa-facebook-square ' aria-hidden='true'></i>
-                </h5>
               </div>
             </Cell>
             <Cell col={6} className='about-right-col'>
@@ -59,7 +54,7 @@ class About extends Component {
               >
                 <Grid>
                   <Cell col={3}>
-                    <p>Front-end:</p>
+                    <p>Front-end</p>
                   </Cell>
                   <Cell col={9}>
                     <AboutSkills skill='HTML/CSS' progress={88} />
@@ -72,7 +67,7 @@ class About extends Component {
                 </Grid>
                 <Grid>
                   <Cell col={3}>
-                    <p> Back-end:</p>
+                    <p> Back-end </p>
                   </Cell>
                   <Cell col={9}>
                     <AboutSkills skill='MongoDB' progress={85} />
@@ -83,7 +78,7 @@ class About extends Component {
                 </Grid>
                 <Grid>
                   <Cell col={3}>
-                    <p>UI/UX:</p>
+                    <p>UI/UX</p>
                   </Cell>
                   <Cell col={9}>
                     <AboutSkills skill='Photoshop' progress={78} />
@@ -92,7 +87,7 @@ class About extends Component {
                 </Grid>
                 <Grid>
                   <Cell col={3}>
-                    <p>Other:</p>
+                    <p>Other</p>
                   </Cell>
                   <Cell col={9}>
                     <AboutSkills skill='Git/Github' progress={80} />

@@ -11,18 +11,18 @@ export class ContactFooter extends Component {
       <div className='footer'>
         <Footer size='mega'>
           <FooterSection type='middle'>
-            <FooterDropDownSection title='Details'>
+            <FooterDropDownSection title='Portfolio'>
               <FooterLinkList>
-                <a href='#'>About</a>
-                <a href='#'>Projects</a>
-                <a href='#'>Blog</a>
+                <a href='/about'>About</a>
+                <a href='/projects'>Projects</a>
+                <a href='/blog'>Blog</a>
               </FooterLinkList>
             </FooterDropDownSection>
             <FooterDropDownSection title='Developer'>
               <FooterLinkList>
-                <a href='#'>Specs</a>
+                <a href='https://calm-tor-62311.herokuapp.com/'>Community</a>
                 <a href='#'>Tools</a>
-                <a href='#'>Resources</a>
+                <a href='#'>Webs</a>
               </FooterLinkList>
             </FooterDropDownSection>
 
@@ -52,7 +52,7 @@ export class ContactFooter extends Component {
               <FooterLinkList>
                 <a href='#'>Help</a>
                 <a href='#'>Privacy & Terms</a>
-            <p>©2020 All rights reserved | Designed by Judy Lian</p>
+                <p>©2020 All rights reserved | Designed by Judy Lian</p>
               </FooterLinkList>
             </FooterDropDownSection>
           </FooterSection>

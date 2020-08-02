@@ -12,13 +12,13 @@ class Blog extends Component {
   render() {
     return (
       <div className='blog-grid'>
-        <div className='page-title' style={{
+        {/* <div className='page-title' style={{
           left: '50%',
           display: 'flex',
         }}>
           <h2>BLOG</h2>
           <hr />
-        </div>
+        </div> */}
         <div className='page-content'>
           <div className="blog-tabs">
             <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>

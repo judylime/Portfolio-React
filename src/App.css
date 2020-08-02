@@ -13,6 +13,38 @@
     #833ab4
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+/* 
+.page-title {
+  text-align: center;
+  position: fixed;
+  top: 0;
+  justify-content: center;
+  left: '50%';
+  transform: 'translate(-50%, -50%)';
+} */
+
+/* .page-title h2 {
+  position: fixed;
+  border-top: 3px solid grey;
+  width: 15%;
+  padding-top: 0em;
+  margin: 0;
+}
+
+.page-title hr {
+  text-align: center;
+  position: fixed;
+  border-top: 3px solid grey;
+  width: 15%;
+  padding-top: 10px;
+  margin-top: 50px;
+} */
+
+.page-content {
+  display: flex;
+  padding: 0rem;
+}
+/* Landing page css */
 
 .landing-grid {
   background: #833ab4; /* fallback for old browsers */
@@ -34,69 +66,60 @@
   left: 0;
   width: 100%;
   height: 100%;
-  padding: 2em;
+  padding: 1.5em;
 }
-.page-title {
-  text-align: center;
-  position: fixed;
-  top: 5em;
-  justify-content: center;
-  left: '50%';
-  transform: 'translate(-50%, -50%)';
-}
-
-.page-title h2 {
-  position: fixed;
-  border-top: 3px solid grey;
-  width: 15%;
-  padding-top: 0em;
-  margin: 0;
+.banner-text {
+  background-color: black;
+  opacity: 0.8;
+  width: 65%;
+  margin: auto;
+  border-radius: 10px;
 }
 
-.page-title hr {
-  text-align: center;
-  position: fixed;
-  border-top: 3px solid grey;
-  width: 15%;
-  padding-top: 10px;
-  margin-top: 50px;
+.banner-text h2 {
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+  padding-top: 0.2em;
 }
 
-.page-content {
+.banner-text hr {
+  border-top: 5px dotted white;
+  width: 50%;
+  margin: auto;
+}
+
+.banner-text p {
+  color: white;
+  padding: 1em;
+  font-size: 1.5em;
+}
+
+.social-links {
   display: flex;
-  padding: 2rem;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
 }
-/* Landing page css */
 .social-links i {
-  font-size: 2.5em;
-  padding: .2em;
+  font-size: 2em;
   color: white;
 }
 
 /* About page css */
 .about-grid {
   display: flex;
-  padding-top: 2rem;
-  justify-content: center;
-}
 
-.follow-me {
-  font-size: 1.3em;
-}
-
-.follow-me i {
-  padding: 0.5em;
-  font-size: 1.5em;
 }
 
 .about-right-col {
   text-align: center;
   justify-content: center;
   width: 80%;
-  height: 100%;
+  height: 80%;
   background: white;
   color: black;
-  margin-bottom: 20px;
+
 }
 
 .about-right-col h2 {
@@ -116,6 +139,7 @@
 
 .progress-bar {
   text-align: center;
+  text-decoration: none;
 }
 
 .progress-bar p {
@@ -123,7 +147,7 @@
   color: grey;
   font-style: normal;
   padding-top: 0.3em;
-  text-align: left;
+  text-align: right;
 }
 
 /* Projects page css */
@@ -132,6 +156,9 @@
   display: flex;
   padding-top: 2rem;
   justify-content: center;
+
+
+
 }
 
 /* Blog page css */
@@ -190,39 +217,7 @@
   padding-bottom: 3.5em;
 }
 
-.banner-text {
-  background-color: black;
-  opacity: 0.8;
-  width: 65%;
-  margin: auto;
-  border-radius: 10px;
-}
 
-.banner-text h2 {
-  font-size: 58px;
-  font-weight: bold;
-  color: white;
-  padding-top: 8px;
-}
-
-.banner-text hr {
-  border-top: 5px dotted white;
-  width: 50%;
-  margin: auto;
-}
-
-.banner-text p {
-  color: white;
-  padding: 1em;
-  font-size: 1.5em;
-}
-
-.social-links {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin: auto;
-}
 
 /* footer */
 
