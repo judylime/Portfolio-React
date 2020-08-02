@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import {
   Grid,
   Card,
@@ -21,18 +21,22 @@ export class ProjectsTemplate extends Component {
                 color: '#fff',
                 height: '176px',
                 background:
-                  'url(http://www.getmdl.io/assets/demos/welcome_card.jpg) center / cover'
+                  /*
+                'url(http://www.getmdl.io/assets/demos/welcome_card.jpgthis.props.img) center /cover'
+                */
+                  'url(' + this.props.img + ') center / cover'
               }}
             >
-              DevConnector
+              {this.props.projects}
             </CardTitle>
-            <CardText>
-              Build a social network with MongoDB , Express, React, Redux &
-              Node.js and deploy the full stack application to Heroku.
-            </CardText>
+            <CardText>{this.props.description}</CardText>
             <CardActions border>
-              <Button colored>GitHub</Button>
-              <Button colored>Live Demo</Button>
+              <Button colored>
+                <a href={this.props.GithubURL}>GitHub</a>
+              </Button>
+              <Button colored>
+                <a href={this.props.DemoURL}>Live Demo</a>
+              </Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
               <IconButton name='share' />
@@ -44,4 +48,4 @@ export class ProjectsTemplate extends Component {
   }
 }
 
-export default ProjectsTemplate
+export default ProjectsTemplate;

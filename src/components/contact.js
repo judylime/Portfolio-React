@@ -6,12 +6,9 @@ import {
   ListItem,
   ListItemContent,
   Button,
-  FooterDropDownSection,
-  Footer,
-  FooterLinkList,
-  FooterSection,
   Textfield
 } from 'react-mdl';
+import ContactFooter from './ContactFooter';
 
 export class Contact extends Component {
   render() {
@@ -36,7 +33,6 @@ export class Contact extends Component {
                 className='contact-form'
                 type={{ left: 0, margin: 0, textAlign: 'left' }}
               >
-           
                 <p>Have a question?</p>
                 {/* Textfield with floating label */}
                 <Textfield
@@ -47,7 +43,7 @@ export class Contact extends Component {
                 />
                 <br />
                 <Textfield
-                  onChange={() => { }}
+                  onChange={() => {}}
                   label='Email...'
                   floatingLabel
                   style={{ width: '400px' }}
@@ -96,44 +92,10 @@ export class Contact extends Component {
                   </ListItem>
                 </List>
               </div>
-
-              <div className='social-media'>
-                <ListItem>
-                  <ListItemContent
-                    style={{
-                      fontSize: '30px',
-                      fontFamily: 'Anton'
-                    }}
-                  >
-                   
-                    <i className='fa fa-github-square ' aria-hidden='true'></i>
-                    <i
-                      className='fa fa-linkedin-square '
-                      aria-hidden='true'
-                    ></i>
-                    <i className='fa fa-twitter-square ' aria-hidden='true'></i>
-                    <i
-                      className='fa fa-facebook-square '
-                      aria-hidden='true'
-                    ></i>
-                  </ListItemContent>
-                </ListItem>
-              </div>
             </Cell>
           </Grid>
         </div>
-        <div className="footer" type={{ Bottom: 0 }}>
-        <Footer size="mini" >
-          <FooterSection type="left" logo="Title">
-            <FooterLinkList>
-              <a href="#">Help</a>
-              <a href="#">Privacy & Terms</a>
-            </FooterLinkList>
-            <p type={{ textAlign: 'center', left: '50%' }}>Judy Lian ©2020</p>
-
-          </FooterSection>
-        </Footer>
-        </div>
+        <ContactFooter />
       </div>
     );
   }

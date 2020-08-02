@@ -66,6 +66,12 @@
   display: flex;
   padding: 2rem;
 }
+/* Landing page css */
+.social-links i {
+  font-size: 2.5em;
+  padding: .2em;
+  color: white;
+}
 
 /* About page css */
 .about-grid {
@@ -107,7 +113,6 @@
   width: 50%;
   margin: auto;
 }
-
 
 .progress-bar {
   text-align: center;
@@ -177,15 +182,6 @@
   padding-left: 1rem;
 }
 
-.social-media {
-  font-size: 80%;
-  padding-top: 2rem;
-  padding-left: 2rem;
-}
-
-.social-media i {
-  padding: 1rem;
-}
 /* contact page css */
 
 .avatar-img {
@@ -228,8 +224,26 @@
   margin: auto;
 }
 
-.social-links i {
-  color: white;
-  font-size: 3em;
-  padding: 8px;
+/* footer */
+
+.footer {
+  position: fixed;
+  bottom: 0em;
+  width: 100%;
+  text-align: left;
+  height: auto;
 }
+
+.social-media {
+  margin: auto;
+  text-align: left;
+  justify-content: right;
+}
+
+.social-media i {
+  padding-top: 0.5em;
+  padding-right: 1rem;
+  color: white;
+  font-size: 1.5em;
+}
+

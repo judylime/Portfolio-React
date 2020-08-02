@@ -4,7 +4,7 @@ import { Tab, Tabs, } from 'react-mdl'
 // Simple header with scrollable tabs
 
 
-export class Blog extends Component {
+class Blog extends Component {
   constructor(props) {
     super(props)
     this.state = { activeTab: 0 };

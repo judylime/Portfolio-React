@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell, ProgressBar } from 'react-mdl';
-import Skills from './Skills';
+import AboutSkills from './AboutSkills';
 
 
 class About extends Component {
@@ -62,12 +62,12 @@ class About extends Component {
                     <p>Front-end:</p>
                   </Cell>
                   <Cell col={9}>
-                    <Skills skill='HTML/CSS' progress={88} />
-                    <Skills skill='Bootstrap' progress={86} />
-                    <Skills skill='JavaScript/ES6' progress={82} />
-                    <Skills skill='jQuery' progress={80} />
-                    <Skills skill='React' progress={76} />
-                    <Skills skill='Redux' progress={70} />
+                    <AboutSkills skill='HTML/CSS' progress={88} />
+                    <AboutSkills skill='Bootstrap' progress={86} />
+                    <AboutSkills skill='JavaScript/ES6' progress={82} />
+                    <AboutSkills skill='jQuery' progress={80} />
+                    <AboutSkills skill='React' progress={76} />
+                    <AboutSkills skill='Redux' progress={70} />
                   </Cell>
                 </Grid>
                 <Grid>
@@ -75,10 +75,10 @@ class About extends Component {
                     <p> Back-end:</p>
                   </Cell>
                   <Cell col={9}>
-                    <Skills skill='MongoDB' progress={85} />
-                    <Skills skill='NodeJS' progress={75} />
-                    <Skills skill='Mongoose' progress={70} />
-                    <Skills skill='Express' progress={70} />
+                    <AboutSkills skill='MongoDB' progress={85} />
+                    <AboutSkills skill='NodeJS' progress={75} />
+                    <AboutSkills skill='Mongoose' progress={70} />
+                    <AboutSkills skill='Express' progress={70} />
                   </Cell>
                 </Grid>
                 <Grid>
@@ -86,8 +86,8 @@ class About extends Component {
                     <p>UI/UX:</p>
                   </Cell>
                   <Cell col={9}>
-                    <Skills skill='Photoshop' progress={78} />
-                    <Skills skill='Invision/Figma' progress={70} />
+                    <AboutSkills skill='Photoshop' progress={78} />
+                    <AboutSkills skill='Invision/Figma' progress={70} />
                   </Cell>
                 </Grid>
                 <Grid>
@@ -95,7 +95,7 @@ class About extends Component {
                     <p>Other:</p>
                   </Cell>
                   <Cell col={9}>
-                    <Skills skill='Git/Github' progress={80} />
+                    <AboutSkills skill='Git/Github' progress={80} />
                   </Cell>
                 </Grid>
               </div>

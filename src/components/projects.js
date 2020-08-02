@@ -2,6 +2,9 @@ import React, { Component } from 'react';
 import { Tabs, Tab, Grid, Cell } from 'react-mdl';
 import ProjectsTemplate from './ProjectsTemplate';
 
+import DevConnector from '../image/DevConnector.jpg';
+import Movie from '../image/Movie.jpg';
+
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -13,8 +16,23 @@ class Projects extends Component {
       return (
         <div className='page-content'>
           <Grid>
-            <ProjectsTemplate />
-            <ProjectsTemplate />
+            <ProjectsTemplate
+              className='MongoDB Express React Node'
+              img={DevConnector}
+              projects='DevConnector'
+              description='Build a social network with MongoDB , Express, React, Redux &
+              Node.js and deploy the full stack application to Heroku.'
+              GithubURL='https://github.com/judylime/DevConnector-MERN_Stack'
+              DemoURL='https://calm-tor-62311.herokuapp.com/'
+            />
+            <ProjectsTemplate
+              className=' React'
+              img={Movie}
+              projects='Movie'
+              description='Build a modern and beautiful looking Movie Application with React Hooks, free APIs, and Bootstrap and deploy to Netlify'
+              GithubURL='https://github.com/judylime/Movie_App-React_Hooks_APIs'
+              DemoURL='https://judy-movie.netlify.app/'
+            />
             <ProjectsTemplate />
           </Grid>
         </div>
@@ -22,7 +40,7 @@ class Projects extends Component {
     } else if (this.state.activeTab === 1) {
       return (
         <div className='page-content'>
-          <Grid >
+          <Grid>
             <ProjectsTemplate />
             <ProjectsTemplate />
             <ProjectsTemplate />
@@ -32,8 +50,14 @@ class Projects extends Component {
     } else if (this.state.activeTab === 2) {
       return (
         <div className='page-content'>
-          <Grid >
-            <ProjectsTemplate />
+          <Grid>
+            <ProjectsTemplate
+              projects='DevConnecter'
+              description='Build a social network with MongoDB , Express, React, Redux &
+              Node.js and deploy the full stack application to Heroku.'
+              GithubURL='http://findmatthew.com/'
+              DemoURL='http://findmatthew.com/'
+            />
             <ProjectsTemplate />
             <ProjectsTemplate />
           </Grid>

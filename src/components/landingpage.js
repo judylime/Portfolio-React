@@ -1,5 +1,9 @@
 import React, { Component } from 'react';
 import { Grid, Cell, Button } from 'react-mdl';
+import About from './About'
+import Projects from './Projects';
+import Blog from './Blog';
+import Contact from './Contact';
 
 export class LandingPage extends Component {
   render() {
@@ -57,10 +61,12 @@ export class LandingPage extends Component {
             </div>
             <br />
             <br />
-            <Button raised colored>View My Work</Button>
-              
+            <Button raised colored href='/projects'>
+              View My Work
+            </Button>
           </Cell>
         </Grid>
+    
       </div>
     );
   }

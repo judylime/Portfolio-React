@@ -1,5 +1,12 @@
-import React, { Component } from 'react'
-import { Grid, Card, CardTitle, CardText, CardActions, Button } from 'react-mdl'
+import React, { Component } from 'react';
+import {
+  Grid,
+  Card,
+  CardTitle,
+  CardText,
+  CardActions,
+  Button
+} from 'react-mdl';
 
 export class BlogTemplate extends Component {
   render() {
@@ -9,7 +16,7 @@ export class BlogTemplate extends Component {
           <Card
             className='blog-card'
             shadow={0}
-            style={{ width: '220px', height: '320px', margin: 'auto' }}
+            style={{ minwidth: '220px', height: '320px', margin: 'auto' }}
           >
             <CardTitle
               expand
@@ -20,19 +27,19 @@ export class BlogTemplate extends Component {
               }}
             >
               Update
-              </CardTitle>
+            </CardTitle>
             <CardText>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan
               convallis.
-              </CardText>
+            </CardText>
             <CardActions border>
               <Button colored>View Updates</Button>
             </CardActions>
           </Card>
         </Grid>
       </div>
-    )
+    );
   }
 }
 
-export default BlogTemplate
+export default BlogTemplate;
