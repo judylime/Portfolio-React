@@ -3,7 +3,6 @@ import {
   Layout,
   Header,
   HeaderRow,
-  Textfield,
   Navigation,
   Drawer,
   Content

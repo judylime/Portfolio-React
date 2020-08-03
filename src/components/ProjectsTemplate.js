@@ -39,7 +39,7 @@ export class ProjectsTemplate extends Component {
               </Button>
             </CardActions>
             <CardMenu style={{ color: '#fff' }}>
-              <IconButton name='share' />
+              {/* <IconButton name='share' /> */}
             </CardMenu>
           </Card>
         </Grid>

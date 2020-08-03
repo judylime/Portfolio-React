@@ -15,7 +15,7 @@ export class BlogTemplate extends Component {
         <Grid className='blog-grid'>
           <Card
             className='blog-card'
-            shadow={0}
+            shadow={5}
             style={{ minwidth: '220px', height: '320px', margin: 'auto' }}
           >
             <CardTitle
@@ -23,17 +23,18 @@ export class BlogTemplate extends Component {
               style={{
                 color: '#fff',
                 background:
-                  'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'
+                  // 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'
+                'url(' + this.props.img + ') center / cover'
               }}
             >
-              Update
+              {this.props.blogTitle}
             </CardTitle>
-            <CardText>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenan
-              convallis.
-            </CardText>
+            <CardText>{this.props.description}</CardText>
             <CardActions border>
-              <Button colored>View Updates</Button>
+              <Button colored>
+                {' '}
+                <a href={this.props.URL}> Learn More</a>
+              </Button>
             </CardActions>
           </Card>
         </Grid>

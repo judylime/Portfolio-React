@@ -1,13 +1,41 @@
-import React, { Component } from 'react'
-import { Tab, Tabs, } from 'react-mdl'
+import React, { Component } from 'react';
+import { Tab, Tabs, Grid, Cell } from 'react-mdl';
+import BlogTemplate from './BlogTemplate';
+import DevConnector from '../image/DevConnector.jpg';
 
 // Simple header with scrollable tabs
 
-
 class Blog extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = { activeTab: 0 };
+  }
+  toggleCategories() {
+    if (this.state.activeTab === 0) {
+      return (
+        <div className='page-content'>
+          <Grid>
+            <BlogTemplate
+              img={DevConnector}
+              description='7 Web Developer Interview Questions and Answers'
+              URL='https://www.indeed.com/hire/interview-questions/web-developer?aceid=&gclid=Cj0KCQjwyJn5BRDrARIsADZ9ykFxa2SmNgl6dWXeAgjjPsdIJjtvbRsB61FJIMz3pXVTzkf2-iY4J-QaAm3gEALw_wcB'
+            />
+          </Grid>
+        </div>
+      );
+    } else if (this.state.activeTab === 1) {
+      return (
+        <div className='page-content'>
+          <Grid>
+            <BlogTemplate
+              img={DevConnector}
+              description='Articles, tutorials, snippets, musings, and everything else.'
+              URL='https://www.taniarascia.com/blog'
+            />
+          </Grid>
+        </div>
+      );
+    }
   }
   render() {
     return (
@@ -20,21 +48,23 @@ class Blog extends Component {
           <hr />
         </div> */}
         <div className='page-content'>
-          <div className="blog-tabs">
-            <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-              <Tab>All</Tab>
-              <Tab>Lannisters</Tab>
-              <Tab>Targaryens</Tab>
+          <div className='blog-tabs'>
+            <Tabs
+              activeTab={this.state.activeTab}
+              onChange={(tabId) => this.setState({ activeTab: tabId })}
+              ripple
+            >
+              <Tab>Interview</Tab>
+              <Tab>Tutorial</Tab>
             </Tabs>
             <section>
-              <div className="content">Content for the tab: {this.state.activeTab}</div>
+              <div className='content'>{this.toggleCategories()} </div>
             </section>
           </div>
-          
         </div>
       </div>
     );
   }
 }
 
-export default Blog
+export default Blog;
