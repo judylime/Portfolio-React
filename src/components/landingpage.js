@@ -23,7 +23,7 @@ export class LandingPage extends Component {
                 {/* LinkedIn */}
                 <a
                   href='https://www.linkedin.com/in/judylian/'
-                  rel='nooperner noreferrer'
+                  rel='noopener noreferrer'
                   target='_blank'
                 >
                   <i className='fa fa-linkedin' aria-hidden='true'></i>
@@ -31,7 +31,7 @@ export class LandingPage extends Component {
                 {/* PortfolioSite */}
                 <a
                   href='https://judylime.github.io/Portfolio-JS/'
-                  rel='nooperner noreferrer'
+                  rel='noopener noreferrer'
                   target='_blank'
                 >
                   <i className='fa fa-globe' aria-hidden='true'></i>
@@ -39,7 +39,7 @@ export class LandingPage extends Component {
                 {/* Github */}
                 <a
                   href='https://github.com/judylime'
-                  rel='nooperner noreferrer'
+                  rel='noopener noreferrer'
                   target='_blank'
                 >
                   <i className='fa fa-github' aria-hidden='true'></i>
@@ -48,7 +48,7 @@ export class LandingPage extends Component {
                 {/* Freecodecamp */}
                 <a
                   href='https://www.freecodecamp.org/judylime'
-                  rel='nooperner noreferrer'
+                  rel='noopener noreferrer'
                   target='_blank'
                 >
                   <i className='fa fa-free-code-camp' aria-hidden='true'></i>

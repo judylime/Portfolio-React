@@ -23,8 +23,8 @@ export class BlogTemplate extends Component {
               style={{
                 color: '#fff',
                 background:
-                  // 'url(http://www.getmdl.io/assets/demos/dog.png) bottom right 15% no-repeat #46B6AC'
-                'url(' + this.props.img + ') center / cover'
+                  'url(https://neilpatel.com/wp-content/uploads/2017/08/blog.jpg) center / cover'
+                // 'url(' + this.props.img + ') center / cover'
               }}
             >
               {this.props.blogTitle}

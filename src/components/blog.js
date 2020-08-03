@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Tab, Tabs, Grid, Cell } from 'react-mdl';
+import { Tab, Tabs, Grid } from 'react-mdl';
 import BlogTemplate from './BlogTemplate';
-import DevConnector from '../image/DevConnector.jpg';
+
 
 // Simple header with scrollable tabs
 
@@ -16,9 +16,12 @@ class Blog extends Component {
         <div className='page-content'>
           <Grid>
             <BlogTemplate
-              img={DevConnector}
               description='7 Web Developer Interview Questions and Answers'
               URL='https://www.indeed.com/hire/interview-questions/web-developer?aceid=&gclid=Cj0KCQjwyJn5BRDrARIsADZ9ykFxa2SmNgl6dWXeAgjjPsdIJjtvbRsB61FJIMz3pXVTzkf2-iY4J-QaAm3gEALw_wcB'
+            />
+            <BlogTemplate
+              description='Data structure, Algorithm & Objected-oriented Design'
+              URL='https://leetcode.com/problems/two-sum/'
             />
           </Grid>
         </div>
@@ -28,7 +31,6 @@ class Blog extends Component {
         <div className='page-content'>
           <Grid>
             <BlogTemplate
-              img={DevConnector}
               description='Articles, tutorials, snippets, musings, and everything else.'
               URL='https://www.taniarascia.com/blog'
             />

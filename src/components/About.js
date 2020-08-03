@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell, ProgressBar } from 'react-mdl';
+import { Grid, Cell } from 'react-mdl';
 import AboutSkills from './AboutSkills';
 
 class About extends Component {

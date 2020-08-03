@@ -21,31 +21,37 @@ export class ContactFooter extends Component {
             <FooterDropDownSection title='Developer'>
               <FooterLinkList>
                 <a href='https://calm-tor-62311.herokuapp.com/'>Community</a>
-                <a href='#'>Tools</a>
-                <a href='#'>Webs</a>
+                <a href='/'>Tools</a>
+                <a href='https://judylime.github.io/Portfolio-JS/'>Webs</a>
               </FooterLinkList>
             </FooterDropDownSection>
 
             <FooterDropDownSection title='Support'>
               <FooterLinkList>
-                <a href='#'>Contact Us</a>
-                <a href='#'>
-                  <div className='social-media'>
+                <a href='/Contact'>Contact Us</a>
+                <div className='social-media'>
+                  <a href='https://github.com/judylime'>
                     <i
                       className='fa fa-github-square social-media '
                       aria-hidden='true'
                     ></i>
+                  </a>
+                  <a href='https://www.linkedin.com/in/judylian/'>
                     <i
                       className='fa fa-linkedin-square '
                       aria-hidden='true'
                     ></i>
+                  </a>
+                  <a href='https://twitter.com/judylime'>
                     <i className='fa fa-twitter-square ' aria-hidden='true'></i>
+                  </a>
+                  <a href='https://www.facebook.com/superjudylime'>
                     <i
                       className='fa fa-facebook-square '
                       aria-hidden='true'
                     ></i>
-                  </div>
-                </a>
+                  </a>
+                </div>
               </FooterLinkList>
             </FooterDropDownSection>
             <FooterDropDownSection title='Resources'>

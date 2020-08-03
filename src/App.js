@@ -9,9 +9,8 @@ import {
 } from 'react-mdl';
 import Main from './components/Main';
 import { Link } from 'react-router-dom';
-
 import './App.css';
-import { Route } from 'react-router-dom';
+
 
 function App() {
   return (
