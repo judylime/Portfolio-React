@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Tab, Tabs, Grid } from 'react-mdl';
 import BlogTemplate from './BlogTemplate';
 
-
 // Simple header with scrollable tabs
 
 class Blog extends Component {
@@ -37,8 +36,25 @@ class Blog extends Component {
           </Grid>
         </div>
       );
+    } else if (this.state.activeTab === 2) {
+      return (
+        <div className='page-content'>
+          <Grid>
+            <BlogTemplate
+              description='Notes-Quick tips, tricks, and hacks.'
+              URL='https://coderguides.com/notes'
+            />
+            <BlogTemplate
+              description='How to fix Page Not Found on netlify
+'
+              URL='https://dev.to/kapi1/how-to-fix-page-not-found-on-netlify-a4i'
+            />
+          </Grid>
+        </div>
+      );
     }
   }
+
   render() {
     return (
       <div className='blog-grid'>
@@ -58,6 +74,7 @@ class Blog extends Component {
             >
               <Tab>Interview</Tab>
               <Tab>Tutorial</Tab>
+              <Tab>Notes</Tab>
             </Tabs>
             <section>
               <div className='content'>{this.toggleCategories()} </div>
