@@ -8,7 +8,7 @@ import {
   Button
 } from 'react-mdl';
 
-export class BlogTemplate extends Component {
+export class InterviewTemplate extends Component {
   render() {
     return (
       <div>
@@ -23,7 +23,7 @@ export class BlogTemplate extends Component {
               style={{
                 color: '#fff',
                 background:
-                  'url(https://neilpatel.com/wp-content/uploads/2017/08/blog.jpg) center / cover'
+                  'url(https://cdn.seeklearning.com.au/media/images/career-guide/article/career-advice/web_images/blogs/214/3725/how_to_prepare_for_a_video_interview_like_a_pro_940x485.jpg) center / cover'
                 // 'url(' + this.props.img + ') center / cover'
               }}
             >
@@ -43,4 +43,4 @@ export class BlogTemplate extends Component {
   }
 }
 
-export default BlogTemplate;
+export default InterviewTemplate;

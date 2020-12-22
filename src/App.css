@@ -193,6 +193,7 @@
 
 .contact-grid h2 {
   font-family: 'Anton', sans-serif;
+  text-align: center;
 }
 
 .contact-grid p {
@@ -207,9 +208,12 @@
 }
 
 .contact-list i {
+  margin: auto;
   font-size: 2rem;
   padding-right: 2rem;
-  padding-left: 1rem;
+  text-align: center;
+  float: center;
+  /* padding-left: 1rem; */
 }
 
 /* contact page css */

@@ -8,7 +8,7 @@ import {
   Button
 } from 'react-mdl';
 
-export class BlogTemplate extends Component {
+export class TutorialTemplate extends Component {
   render() {
     return (
       <div>
@@ -23,7 +23,7 @@ export class BlogTemplate extends Component {
               style={{
                 color: '#fff',
                 background:
-                  'url(https://neilpatel.com/wp-content/uploads/2017/08/blog.jpg) center / cover'
+                  'url(https://www.washoeschools.net/cms/lib/NV01912265/Centricity/Domain/1506/tutorials.png) center / cover'
                 // 'url(' + this.props.img + ') center / cover'
               }}
             >
@@ -43,4 +43,4 @@ export class BlogTemplate extends Component {
   }
 }
 
-export default BlogTemplate;
+export default TutorialTemplate;

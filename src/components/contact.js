@@ -28,7 +28,7 @@ export class Contact extends Component {
         <div className='page-content'>
           <Grid>
             <Cell col={7}>
-              <Cell col={1}></Cell>
+              <Cell col={4}></Cell>
               <Cell col={8} className='form'>
                 <div
                   className='contact-form'
@@ -40,7 +40,7 @@ export class Contact extends Component {
                     onChange={() => {}}
                     label='Name...'
                     floatingLabel
-                    style={{ width: '600px' }}
+                    style={{ width: '400px' }}
                   />
                   <br />
                   <Textfield
@@ -65,7 +65,7 @@ export class Contact extends Component {
               </Cell>
             </Cell>
             <Cell col={5}>
-              <Cell col={12} className='contact-grid'>
+              <Cell col={9} className='contact-grid'>
                 <h2>Contact Me</h2>
                 <hr />
                 <div className='contact-list'>

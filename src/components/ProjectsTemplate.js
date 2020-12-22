@@ -14,7 +14,7 @@ export class ProjectsTemplate extends Component {
     return (
       <div>
         <Grid>
-          <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+          <Card shadow={4} style={{ minWidth: '450', margin: 'auto' }}>
             <CardTitle
               style={{
                 color: '#fff',
