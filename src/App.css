@@ -41,8 +41,15 @@
 } */
 
 .page-content {
-  display: flex;
+  display: block;
   padding: 0rem;
+  margin: auto;
+  float: center;
+  overflow: auto;
+  text-align: center;
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
 }
 /* Landing page css */
 

@@ -20,7 +20,7 @@ class Projects extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div className='page-content'>
-          <Grid>
+          <Grid container spacing={0} justify='center' alignItems='center' align="center">
             <ProjectsTemplate
               img={DevConnector}
               projects='DevCommunity'
