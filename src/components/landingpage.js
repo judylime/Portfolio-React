@@ -13,7 +13,7 @@ export class LandingPage extends Component {
               className='avatar-img'
             />
             <div className=' banner-text'>
-              <h2>Full Stack Web Developer</h2>
+              <h2>Front-end / Full Stack Web Developer</h2>
               <hr />
               <p>
                 HTML/CSS | Bootstrap | JavaScript | MongoDB | Express | React |

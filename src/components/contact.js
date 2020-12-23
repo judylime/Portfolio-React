@@ -77,11 +77,15 @@ export class Contact extends Component {
                           fontFamily: 'Anton',
                           paddingLeft: '0.3rem'
                         }}
-                      >
+                      ><a
+                          href='mailto:judyl05179@gmail.com'
+                          title='Email'
+                          className=''
+                        >
                         <i
                           className='fa fa-phone-square'
                           aria-hidden='true'
-                        ></i>
+                        ></i></a>
                         (669)225-9325
                       </ListItemContent>
                     </ListItem>
@@ -90,7 +94,13 @@ export class Contact extends Component {
                       <ListItemContent
                         style={{ fontSize: '30px', fontFamily: 'Anton' }}
                       >
-                        <i className='fa fa-envelope' aria-hidden='true'></i>
+                        <a
+                          href='mailto:judyl05179@gmail.com'
+                          title='Email'
+                          className=''
+                        >
+                          <i className='fa fa-envelope' aria-hidden='true'></i>
+                        </a>
                         judyl05179@gmail.com
                       </ListItemContent>
                     </ListItem>
