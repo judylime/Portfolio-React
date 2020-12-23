@@ -48,6 +48,10 @@ class Blog extends Component {
               description='How to fix Page Not Found on netlify'
               URL='https://dev.to/kapi1/how-to-fix-page-not-found-on-netlify-a4i'
             />
+            <NotesTemplate
+              description='Simple Contact Form Submission With Netlify'
+              URL='https://www.youtube.com/watch?v=6ElQ689HRcY'
+            />
           </Grid>
         </div>
       );

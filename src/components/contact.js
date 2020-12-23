@@ -5,71 +5,72 @@ import {
   List,
   ListItem,
   ListItemContent,
-  Button,
+  FooterLinkList,
   Textfield
 } from 'react-mdl';
 import ContactFooter from './ContactFooter';
+import ContactForm from './ContactForm';
+import './../App.css';
 
 export class Contact extends Component {
   render() {
     return (
-      <div className='contact-body'>
-        {/* <div
-          className='page-title'
-          style={{
-            left: '50%',
-            display: 'flex'
-          }}
-        >
-          <h2>CONTACT</h2>
-          <hr />
-          <br />
-        </div> */}
+      <div className=''>
         <div className='page-content'>
           <Grid>
-            <Cell col={7}>
-              <Cell col={4}></Cell>
-              <Cell col={8} className='form'>
-                <div
-                  className='contact-form'
-                  type={{ left: 0, margin: 0, textAlign: 'left' }}
-                >
-                  <p>Have a question?</p>
-                  {/* Textfield with floating label */}
-                  <Textfield
-                    onChange={() => {}}
-                    label='Name...'
-                    floatingLabel
-                    style={{ width: '400px' }}
-                  />
-                  <br />
-                  <Textfield
-                    onChange={() => {}}
-                    label='Email...'
-                    floatingLabel
-                    style={{ width: '400px' }}
-                  />
-                  <br />
-                  {/* Floating Multiline Textfield */}
-                  <Textfield
-                    onChange={() => {}}
-                    label='Text lines...'
-                    rows={3}
-                    style={{ width: '400px' }}
-                  />
-                  <br />
-                  <Button raised accent ripple Type={{}}>
-                    Submit
-                  </Button>
-                </div>
-              </Cell>
+            <Cell col={6} className='form'>
+              <ContactForm />
             </Cell>
-            <Cell col={5}>
+            <Cell col={6}>
               <Cell col={9} className='contact-grid'>
-                <h2>Contact Me</h2>
+                <h2>
+                  <a href='/Contact'>Let's Connect</a>
+                </h2>{' '}
                 <hr />
+                <div style={{}}>
+                  <div className='lets-connect-i'>
+                    <a href='https://github.com/judylime'>
+                      <i
+                        className='fa fa-github-square social-media '
+                        aria-hidden='true'
+                      ></i>
+                    </a>
+
+                    <a href='https://www.linkedin.com/in/judylian/'>
+                      <i
+                        className='fa fa-linkedin-square '
+                        aria-hidden='true'
+                      ></i>
+                    </a>
+                    <a href='https://twitter.com/judylime'>
+                      <i
+                        className='fa fa-twitter-square '
+                        aria-hidden='true'
+                      ></i>
+                    </a>
+                    <a href='https://www.facebook.com/superjudylime'>
+                      <i
+                        className='fa fa-facebook-square '
+                        aria-hidden='true'
+                      ></i>
+                    </a>
+                    <a
+                      href='mailto:judyl05179@gmail.com'
+                      title='Email'
+                      className=''
+                    >
+                      <i
+                        className='fa fa-envelope-square'
+                        aria-hidden='true'
+                      ></i>
+                    </a>
+                    <a href='' title='' className=''>
+                      <i class='fas fa-file-pdf' aria-hidden='true'></i>
+                    </a>
+                  </div>
+                </div>
                 <div className='contact-list'>
-                  <List>
+                  {/* <List>
                     <ListItem>
                       <ListItemContent
                         style={{
@@ -77,15 +78,17 @@ export class Contact extends Component {
                           fontFamily: 'Anton',
                           paddingLeft: '0.3rem'
                         }}
-                      ><a
+                      >
+                        <a
                           href='mailto:judyl05179@gmail.com'
                           title='Email'
                           className=''
                         >
-                        <i
-                          className='fa fa-phone-square'
-                          aria-hidden='true'
-                        ></i></a>
+                          <i
+                            className='fa fa-phone-square'
+                            aria-hidden='true'
+                          ></i>
+                        </a>
                         (669)225-9325
                       </ListItemContent>
                     </ListItem>
@@ -104,7 +107,7 @@ export class Contact extends Component {
                         judyl05179@gmail.com
                       </ListItemContent>
                     </ListItem>
-                  </List>
+                  </List> */}
                 </div>
               </Cell>
             </Cell>

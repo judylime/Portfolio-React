@@ -183,7 +183,7 @@
 
 .contact-grid {
   text-align: center;
-  justify-content: center;
+  justify-content: left;
   width: 80%;
   height: 100%;
   background: white;
@@ -224,14 +224,31 @@
   padding-bottom: 3.5em;
 }
 
+.lets-connect-i {
+  /* width: auto; */
+
+
+  margin: 1em 0em;
+ font-size: 5em;
+  
+}
+
+.lets-connect-i a{
+  padding: 0.15em ;
+    /* justify-content: space-between; */
+}
+
+
 /* footer */
 
 .footer {
+  margin: 0%;
+  padding: 0%;
   position: fixed;
   bottom: 0em;
   width: 100%;
   text-align: left;
-  height: auto;
+  /* height: auto; */
 }
 
 .social-media {

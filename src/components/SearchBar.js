@@ -1,13 +1,5 @@
 import React from 'react';
-import {
-  Layout,
-  Header,
-  HeaderRow,
-  Navigation,
-  Drawer,
-  Content,
-  Textfield
-} from 'react-mdl';
+import { Header, HeaderRow, Navigation, Drawer, Textfield } from 'react-mdl';
 
 import { Link } from 'react-router-dom';
 import '../App.css';
