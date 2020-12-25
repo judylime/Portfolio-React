@@ -24,6 +24,7 @@ class About extends Component {
         </div> */}
         <div className='page-content'>
           <Grid>
+                
             <Cell col={6}>
               <div style={{ textAlign: 'center' }}>
                 <img

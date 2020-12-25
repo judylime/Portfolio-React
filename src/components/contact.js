@@ -69,47 +69,22 @@ export class Contact extends Component {
                     </a>
                   </div>
                 </div>
-                <div className='contact-list'>
-                  {/* <List>
-                    <ListItem>
-                      <ListItemContent
-                        style={{
-                          fontSize: '30px',
-                          fontFamily: 'Anton',
-                          paddingLeft: '0.3rem'
-                        }}
-                      >
-                        <a
-                          href='mailto:judyl05179@gmail.com'
-                          title='Email'
-                          className=''
-                        >
-                          <i
-                            className='fa fa-phone-square'
-                            aria-hidden='true'
-                          ></i>
-                        </a>
-                        (669)225-9325
-                      </ListItemContent>
-                    </ListItem>
-
-                    <ListItem>
-                      <ListItemContent
-                        style={{ fontSize: '30px', fontFamily: 'Anton' }}
-                      >
-                        <a
-                          href='mailto:judyl05179@gmail.com'
-                          title='Email'
-                          className=''
-                        >
-                          <i className='fa fa-envelope' aria-hidden='true'></i>
-                        </a>
-                        judyl05179@gmail.com
-                      </ListItemContent>
-                    </ListItem>
-                  </List> */}
-                </div>
+                <div className='contact-list'></div>
               </Cell>
+            </Cell>
+            <Cell col={10}></Cell>
+            <Cell col={2}>
+              <span style={{background:'lightgrey', width:'100%'}}>Ads</span>
+              <a
+                target='new'
+                href='https://click.linksynergy.com/fs-bin/click?id=SeAcEfxZlI4&offerid=311675.10000124&subid=0&type=4&LSNSUBSITE=LSNSUBSITE'
+              >
+                <img
+                  border='0'
+                  alt='Technology Used by Successwful Businesses'
+                  src='https://ad.linksynergy.com/fs-bin/show?id=SeAcEfxZlI4&bids=311675.10000124&subid=0&type=4&gridnum=3'
+                />
+              </a>
             </Cell>
           </Grid>
         </div>

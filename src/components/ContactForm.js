@@ -24,6 +24,7 @@ export class Contact extends Component {
               floatingLabel
               style={{ width: '400px' }}
             />
+            <br />
 
             <Textfield
               className='form'
@@ -36,7 +37,7 @@ export class Contact extends Component {
               floatingLabel
               style={{ width: '400px' }}
             />
-
+            <br />
             {/* Floating Multiline Textfield */}
             <Textfield
               className='form'

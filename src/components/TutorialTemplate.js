@@ -16,15 +16,15 @@ export class TutorialTemplate extends Component {
           <Card
             className='blog-card'
             shadow={4}
-            style={{ minwidth: '220px', height: '320px', margin: 'auto' }}
+            style={{ minwidth: '220px', height: '280px', margin: 'auto' }}
           >
             <CardTitle
               expand
               style={{
                 color: '#fff',
                 background:
-                  'url(https://www.washoeschools.net/cms/lib/NV01912265/Centricity/Domain/1506/tutorials.png) center / cover'
-                // 'url(' + this.props.img + ') center / cover'
+                  // 'url(https://www.washoeschools.net/cms/lib/NV01912265/Centricity/Domain/1506/tutorials.png) center / cover'
+                'url(' + this.props.img + ') center / cover'
               }}
             >
               {this.props.blogTitle}

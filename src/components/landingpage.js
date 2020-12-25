@@ -6,6 +6,7 @@ export class LandingPage extends Component {
     return (
       <div style={{ width: '100%', margin: 'auto', top: '50%' }}>
         <Grid className='landing-grid'>
+          
           <Cell col={12}>
             <img
               src='https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/girl_female_woman_avatar-512.png'
