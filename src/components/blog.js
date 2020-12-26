@@ -18,6 +18,11 @@ class Blog extends Component {
         <div className='page-content'>
           <Grid>
             <TutorialTemplate
+              description='AWS Certified Cloud Practitioner Training 2020'
+              URL='https://www.youtube.com/watch?v=3hLmDS179YE'
+              img='https://www.testpreptraining.com/blog/wp-content/uploads/2019/11/how-to-crack-aws-cloud-practitioner-certification-exam.jpg'
+            />
+            <TutorialTemplate
               description='Welcome to AWS Fundamentals: Going Cloud-Native'
               URL='https://www.coursera.org/learn/aws-fundamentals-going-cloud-native/home/welcome'
               img='https://miro.medium.com/max/700/1*b_al7C5p26tbZG4sy-CWqw.png'
@@ -37,7 +42,11 @@ class Blog extends Component {
               URL='https://vuejs.org/v2/guide/'
               img='https://miro.medium.com/max/1000/1*oZqGznbYXJfBlvGp5gQlYQ.jpeg'
             />
-            
+            <TutorialTemplate
+              description='12 Beginner Python Projects - Youtube Coding Course'
+              URL='https://www.youtube.com/watch?v=8ext9G7xspg'
+              img='https://hackr.io/blog/python-projects/thumbnail/large'
+            />
           </Grid>
         </div>
       );
@@ -48,19 +57,22 @@ class Blog extends Component {
             <NotesTemplate
               description='Cool little JavaScript Operator Lookup'
               URL='https://joshwcomeau.com/operator-lookup/'
-              img='https://www.joshwcomeau.com/operator-lookup/'
+              img='https://scotch-res.cloudinary.com/image/upload/w_1050,q_auto:good,f_auto/v1562952581/jqctyinrganjts991d3w.jpg'
             />
             <NotesTemplate
               description='Notes-Quick tips, tricks, and hacks.'
               URL='https://coderguides.com/notes'
+              img='https://coderguides.com/static/media/CoderGuides.075d0c92.webp'
             />
             <NotesTemplate
               description='How to fix Page Not Found on netlify'
               URL='https://dev.to/kapi1/how-to-fix-page-not-found-on-netlify-a4i'
+              img='https://cdn.sanity.io/images/ti7si9cx/production/656e951d31f3dc0f061a57466d01def70a81a6af-1500x1000.gif?w=1382'
             />
             <NotesTemplate
               description='Simple Contact Form Submission With Netlify'
               URL='https://www.youtube.com/watch?v=6ElQ689HRcY'
+              img='https://cdn.sanity.io/images/ti7si9cx/production/656e951d31f3dc0f061a57466d01def70a81a6af-1500x1000.gif?w=1382'
             />
             <NotesTemplate
               description='Articles, tutorials, snippets'
@@ -87,6 +99,21 @@ class Blog extends Component {
               description='7 Stages Of System Development Life Cycle (SDLC)'
               URL='https://dreamsoft4u.com/blog/7-stages-of-the-software-development-life-cycle-sdlc'
               img='https://dreamsoft4u.com/blog/wp-content/uploads/2020/07/7-Stages-Of-The-Software-Development-Life-Cycle-SDLC.png'
+            />
+            <InterviewTemplate
+              description='Build An Automated Testing Pipeline With GitLab CI/CD & Selenium Grid'
+              URL='https://www.lambdatest.com/blog/automated-testing-pipeline-with-gitlab-ci-cd-and-selenium/'
+              img='https://www.lambdatest.com/blog/wp-content/uploads/2020/03/GitLab-CI-CD-and-Selenium-Grid.jpg'
+            />
+            <InterviewTemplate
+              description='What is Black Box Testing?'
+              URL='https://www.rainforestqa.com/blog/2018-10-26-what-is-black-box-testing'
+              img='https://wp-images.rainforestqa.com/wp-content/uploads/2018/01/fb5ae6a9088b3b48cff4e4a29de06359.png'
+            />
+            <InterviewTemplate
+              description='white box testing'
+              URL='https://searchsoftwarequality.techtarget.com/definition/white-box'
+              img='http://4.bp.blogspot.com/-_LCeNcoLr8c/USSeshoupNI/AAAAAAAAAkM/SxZkrvutuGc/s1600/white-box-testing.png'
             />
             <InterviewTemplate
               description='7 Web Developer Interview Questions and Answers'

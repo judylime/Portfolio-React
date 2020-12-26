@@ -23,8 +23,8 @@ export class BlogTemplate extends Component {
               style={{
                 color: '#fff',
                 background:
-                  'url(https://www.zebrapen.com/wp-content/uploads/2019/10/10_24_NotesBlog-e1570723912946.jpg) center / cover'
-                // 'url(' + this.props.img + ') center / cover'
+                  // 'url(https://www.zebrapen.com/wp-content/uploads/2019/10/10_24_NotesBlog-e1570723912946.jpg) center / cover'
+                'url(' + this.props.img + ') center / cover'
               }}
             >
               {this.props.blogTitle}
