@@ -120,12 +120,7 @@ class Blog extends Component {
               URL='https://www.indeed.com/hire/interview-questions/web-developer?aceid=&gclid=Cj0KCQjwyJn5BRDrARIsADZ9ykFxa2SmNgl6dWXeAgjjPsdIJjtvbRsB61FJIMz3pXVTzkf2-iY4J-QaAm3gEALw_wcB'
               img='https://cdn.seeklearning.com.au/media/images/career-guide/article/career-advice/web_images/blogs/214/3725/how_to_prepare_for_a_video_interview_like_a_pro_940x485.jpg'
             />
-            <InterviewTemplate
-              description='Data structure, Algorithm & 
-Object-Oriented Design'
-              URL='https://leetcode.com/problems/two-sum/'
-              img='https://res.cloudinary.com/practicaldev/image/fetch/s--u2bcoOHC--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/9da6rnlxgxq8fv8degu4.png'
-            />
+
             <InterviewTemplate
               description='Linkedin quiz assessment, test, questions and answers '
               URL='https://www.udemy.com/user/vedanta-technologies/'
@@ -135,6 +130,29 @@ Object-Oriented Design'
         </div>
       );
     } else if (this.state.activeTab === 3) {
+      return (
+        <div className='page-content'>
+          <Grid>
+            <InterviewTemplate
+              description='30 Day Vanilla JS Coding Challenge'
+              URL='https://javascript30.com/'
+              img='https://res.cloudinary.com/practicaldev/image/fetch/s--fni3zW3X--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/ibunvefphkr79qsx6gef.png'
+            />
+            <InterviewTemplate
+              description='edabit: The easiest way to learn coding'
+              URL='https://edabit.com/challenges'
+              img='https://austinkladke.files.wordpress.com/2019/09/edabit_fastest_way_to_learn.png?w=656'
+            />
+            <InterviewTemplate
+              description='Data structure, Algorithm & 
+              Object-Oriented Design'
+              URL='https://leetcode.com/problems/two-sum/'
+              img='https://res.cloudinary.com/practicaldev/image/fetch/s--u2bcoOHC--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/9da6rnlxgxq8fv8degu4.png'
+            />
+          </Grid>
+        </div>
+      );
+    } else if (this.state.activeTab === 4) {
       return (
         <div className='page-content'>
           <Grid>
@@ -169,6 +187,7 @@ Object-Oriented Design'
               <Tab>Tutorials</Tab>
               <Tab>Notes</Tab>
               <Tab>Interview</Tab>
+              <Tab>Coding</Tab>
               <Tab>Others</Tab>
             </Tabs>
             <section>

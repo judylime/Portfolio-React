@@ -42,7 +42,7 @@ export class Contact extends Component {
                         aria-hidden='true'
                       ></i>
                     </a>
-                    <a href='https://twitter.com/judylime'>
+                    {/* <a href='https://twitter.com/judylime'>
                       <i
                         className='fa fa-twitter-square '
                         aria-hidden='true'
@@ -53,7 +53,7 @@ export class Contact extends Component {
                         className='fa fa-facebook-square '
                         aria-hidden='true'
                       ></i>
-                    </a>
+                    </a> */}
                     <a
                       href='mailto:judyl05179@gmail.com'
                       title='Email'
@@ -67,6 +67,9 @@ export class Contact extends Component {
                     <a href='' title='' className=''>
                       <i class='fas fa-file-pdf' aria-hidden='true'></i>
                     </a>
+                    <a href='' title='' className=''>
+                      <i class='fas fa-file-download' aria-hidden='true'></i>
+                    </a>
                   </div>
                 </div>
                 <div className='contact-list'></div>
@@ -74,7 +77,9 @@ export class Contact extends Component {
             </Cell>
             <Cell col={10}></Cell>
             <Cell col={2}>
-              <span style={{background:'lightgrey', width:'100%'}}>Ads</span>
+              <span style={{ background: 'lightgrey', width: '100%' }}>
+                Ads<i class='fas fa-ad' size='5'></i>
+              </span>
               <a
                 target='new'
                 href='https://click.linksynergy.com/fs-bin/click?id=SeAcEfxZlI4&offerid=311675.10000124&subid=0&type=4&LSNSUBSITE=LSNSUBSITE'

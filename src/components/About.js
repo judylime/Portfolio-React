@@ -24,7 +24,6 @@ class About extends Component {
         </div> */}
         <div className='page-content'>
           <Grid>
-                
             <Cell col={6}>
               <div style={{ textAlign: 'center' }}>
                 <img
@@ -33,20 +32,21 @@ class About extends Component {
                   style={{ height: '200px', padding: '2em' }}
                 />
                 <h2 style={{ paddingTop: '1em' }}>Judy Lian</h2>
-                <h4 style={{ color: 'grey' }}>Web Developer</h4>
-                <p style={{ margin: 'auto', paddingTop: '1em', width: '75%' }}>
+                <h4 style={{ color: 'grey' }}>Frontend Web Developer</h4>
+                <hr />
+                <p style={{ margin: 'auto', paddingTop: '1em', width: '85%' }}>
                   Courteous and enthusiastic, I am interested in IT and
                   everything in its orbit. I began to be fascinated by web
                   programming, e.g. developing apps and building websites.
                   <br />
-                  I'm a Front-End Developer for Lingolet in Santa Clara, CA. I
-                  have serious passion for UI effects, animations and creating
-                  intuitive, dynamic user experiences.
+                  I'm a Front-End Developer in Santa Clara, CA. I have serious
+                  passion for UI effects, animations and creating intuitive,
+                  dynamic user experiences.
                 </p>
               </div>
             </Cell>
             <Cell col={6} className='about-right-col'>
-              <h3>Skills</h3>
+              <h3>Skills & Tools</h3>
               <hr />
               {/* Progress Bar with Buffering */}
               <div
@@ -54,10 +54,10 @@ class About extends Component {
                 style={{ margin: '0', padding: '0' }}
               >
                 <Grid>
-                  <Cell col={3}>
+                  <Cell col={2}>
                     <p>Front-end</p>
                   </Cell>
-                  <Cell col={9}>
+                  <Cell col={10}>
                     <AboutSkills skill='HTML/CSS' progress={88} />
                     <AboutSkills skill='Bootstrap' progress={86} />
                     <AboutSkills skill='JavaScript/ES6' progress={82} />
@@ -67,10 +67,10 @@ class About extends Component {
                   </Cell>
                 </Grid>
                 <Grid>
-                  <Cell col={3}>
+                  <Cell col={2}>
                     <p> Back-end </p>
                   </Cell>
-                  <Cell col={9}>
+                  <Cell col={10}>
                     <AboutSkills skill='MongoDB' progress={85} />
                     <AboutSkills skill='NodeJS' progress={75} />
                     <AboutSkills skill='Mongoose' progress={70} />
@@ -78,26 +78,45 @@ class About extends Component {
                   </Cell>
                 </Grid>
                 <Grid>
-                  <Cell col={3}>
+                  <Cell col={2}>
                     <p>UI/UX</p>
                   </Cell>
-                  <Cell col={9}>
+                  <Cell col={10}>
                     <AboutSkills skill='Photoshop' progress={78} />
                     <AboutSkills skill='Invision/Figma' progress={70} />
                   </Cell>
                 </Grid>
                 <Grid>
-                  <Cell col={3}>
+                  <Cell col={2}>
+                    <p>Testing</p>
+                  </Cell>
+                  <Cell col={10}>
+                    <AboutSkills skill='Chrome DevTools' progress={80} />
+                    <AboutSkills skill='Jest' progress={80} />
+                  </Cell>
+                </Grid>
+                <Grid>
+                  <Cell col={2}>
+                    <p>Managment</p>
+                  </Cell>
+                  <Cell col={10}>
+                    <AboutSkills skill='Jira' progress={80} />
+                    <AboutSkills skill='Trello' progress={80} />
+                  </Cell>
+                </Grid>
+                <Grid>
+                  <Cell col={2}>
                     <p>Other</p>
                   </Cell>
-                  <Cell col={9}>
+                  <Cell col={10}>
                     <AboutSkills skill='Git/Github' progress={80} />
                   </Cell>
                 </Grid>
               </div>
             </Cell>
           </Grid>
-        </div>
+
+         </div>
       </div>
     );
   }

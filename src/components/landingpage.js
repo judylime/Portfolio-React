@@ -6,7 +6,6 @@ export class LandingPage extends Component {
     return (
       <div style={{ width: '100%', margin: 'auto', top: '50%' }}>
         <Grid className='landing-grid'>
-          
           <Cell col={12}>
             <img
               src='https://cdn4.iconfinder.com/data/icons/avatars-xmas-giveaway/128/girl_female_woman_avatar-512.png'
@@ -44,8 +43,16 @@ export class LandingPage extends Component {
                   target='_blank'
                 >
                   <i className='fa fa-github' aria-hidden='true'></i>
+                </a>{' '}
+                {/* Gitlab */}
+                <a
+                  href='https://gitlab.com/JudyL'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
+                  <i className='fab fa-gitlab' aria-hidden='true'></i>
                 </a>
-
+                <i class=''></i>
                 {/* Freecodecamp */}
                 <a
                   href='https://www.freecodecamp.org/judylime'
