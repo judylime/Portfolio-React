@@ -75,6 +75,11 @@ class Blog extends Component {
               img='https://cdn.sanity.io/images/ti7si9cx/production/656e951d31f3dc0f061a57466d01def70a81a6af-1500x1000.gif?w=1382'
             />
             <NotesTemplate
+              description='How to Use GitLab and GitHub Together'
+              URL='https://steveperkins.com/migrating-projects-from-github-to-gitlab/'
+              img='https://deployplace.com/uploads/gitlab-vs-github/gitlab-vs-github.jpg'
+            />
+            <NotesTemplate
               description='Articles, tutorials, snippets'
               URL='https://www.taniarascia.com/blog'
             />

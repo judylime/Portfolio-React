@@ -83,7 +83,8 @@ class About extends Component {
                   </Cell>
                   <Cell col={10}>
                     <AboutSkills skill='Photoshop' progress={78} />
-                    <AboutSkills skill='Invision/Figma' progress={70} />
+                    <AboutSkills skill='Figma' progress={70} />
+                    <AboutSkills skill='Invision' progress={70} />
                   </Cell>
                 </Grid>
                 <Grid>
@@ -109,14 +110,15 @@ class About extends Component {
                     <p>Other</p>
                   </Cell>
                   <Cell col={10}>
-                    <AboutSkills skill='Git/Github' progress={80} />
+                    <AboutSkills skill='Git' progress={88} />
+                    <AboutSkills skill='Github' progress={88} />
+                    <AboutSkills skill='Gitlab' progress={88} />
                   </Cell>
                 </Grid>
               </div>
             </Cell>
           </Grid>
-
-         </div>
+        </div>
       </div>
     );
   }
