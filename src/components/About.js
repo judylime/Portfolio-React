@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Grid, Cell } from 'react-mdl';
+import { Grid, Cell ,Button} from 'react-mdl';
 import AboutSkills from './AboutSkills';
 
 class About extends Component {
@@ -11,17 +11,7 @@ class About extends Component {
         dataDelay='.5s'
         style={{ animationDelay: '0.5s' }}
       >
-        {/* <div
-          className='page-title'
-          style={{
-            left: '50%',
-            display: 'flex'
-          }}
-        >
-          <h2>ABOUT</h2>
-          <hr />
-          <br />
-        </div> */}
+   
         <div className='page-content'>
           <Grid>
             <Cell col={6}>
@@ -44,6 +34,10 @@ class About extends Component {
                   dynamic user experiences.
                 </p>
               </div>
+              <br/>
+              <Button raised colored href='./image/Resume_Judy.pdf' rel='noopener npreferrer' target='_blank' animationDelay >
+                View My Resume
+              </Button>
             </Cell>
             <Cell col={6} className='about-right-col'>
               <h3>Skills & Tools</h3>
