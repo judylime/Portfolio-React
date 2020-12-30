@@ -6,7 +6,7 @@ import {
   ListItem,
   ListItemContent,
   FooterLinkList,
-  Textfield
+  Textfield,Icon
 } from 'react-mdl';
 import ContactFooter from './ContactFooter';
 import ContactForm from './ContactForm';
@@ -70,6 +70,8 @@ export class Contact extends Component {
                     <a href='' title='' className=''>
                       <i class='fas fa-file-download' aria-hidden='true'></i>
                     </a>
+                    <Icon name='print' />
+                    
                   </div>
                 </div>
                 <div className='contact-list'></div>

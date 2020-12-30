@@ -16,7 +16,7 @@ export class BlogTemplate extends Component {
           <Card
             className='blog-card'
             shadow={4}
-            style={{ minwidth: '220px', height: '120px', margin: 'auto' }}
+            style={{ minwidth: '220px', height: '320px', margin: 'auto' }}
           >
             <CardTitle
               expand

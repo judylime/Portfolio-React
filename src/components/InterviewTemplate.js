@@ -16,7 +16,7 @@ export class InterviewTemplate extends Component {
           <Card
             className='blog-card'
             shadow={4}
-            style={{ minwidth: '220px', height: '270px', margin: 'auto' }}
+            style={{ minwidth: '220px', height: '300px', margin: 'auto' }}
           >
             <CardTitle
               expand

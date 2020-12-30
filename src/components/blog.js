@@ -42,11 +42,7 @@ class Blog extends Component {
               URL='https://vuejs.org/v2/guide/'
               img='https://miro.medium.com/max/1000/1*oZqGznbYXJfBlvGp5gQlYQ.jpeg'
             />
-            <TutorialTemplate
-              description='12 Beginner Python Projects - Youtube Coding Course'
-              URL='https://www.youtube.com/watch?v=8ext9G7xspg'
-              img='https://hackr.io/blog/python-projects/thumbnail/large'
-            />
+            
           </Grid>
         </div>
       );
@@ -78,6 +74,11 @@ class Blog extends Component {
               description='How to Use GitLab and GitHub Together'
               URL='https://steveperkins.com/migrating-projects-from-github-to-gitlab/'
               img='https://deployplace.com/uploads/gitlab-vs-github/gitlab-vs-github.jpg'
+            />
+            <NotesTemplate
+              description='E-commerce Shopping Cart by using React'
+              URL='https://www.youtube.com/watch?v=02ieJ1YXZM4'
+              img='https://codingwithbasir.com/wp-content/uploads/2020/12/reactcart.png'
             />
             <NotesTemplate
               description='Articles, tutorials, snippets'
@@ -153,6 +154,11 @@ class Blog extends Component {
               Object-Oriented Design'
               URL='https://leetcode.com/problems/two-sum/'
               img='https://res.cloudinary.com/practicaldev/image/fetch/s--u2bcoOHC--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/9da6rnlxgxq8fv8degu4.png'
+            />
+            <TutorialTemplate
+              description='12 Beginner Python Projects - Youtube Coding Course'
+              URL='https://www.youtube.com/watch?v=8ext9G7xspg'
+              img='https://hackr.io/blog/python-projects/thumbnail/large'
             />
           </Grid>
         </div>
