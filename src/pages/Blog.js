@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Tab, Tabs, Grid } from 'react-mdl';
-import BlogTemplate from './BlogTemplate';
-import NotesTemplate from './NotesTemplate';
-import InterviewTemplate from './InterviewTemplate';
-import TutorialTemplate from './TutorialTemplate';
+import BlogTemplate from '../components/BlogTemplate';
+import NotesTemplate from '../components/NotesTemplate';
+import InterviewTemplate from '../components/InterviewTemplate';
+import TutorialTemplate from '../components/TutorialTemplate';
 
 // Simple header with scrollable tabs
 
@@ -18,14 +18,14 @@ class Blog extends Component {
         <div className='page-content'>
           <Grid>
             <TutorialTemplate
-              description='AWS Certified Cloud Practitioner Training 2020'
-              URL='https://www.youtube.com/watch?v=3hLmDS179YE'
-              img='https://www.testpreptraining.com/blog/wp-content/uploads/2019/11/how-to-crack-aws-cloud-practitioner-certification-exam.jpg'
+              description='Bootstrap · The most popular HTML, CSS, and JS library in the World'
+              URL='https://getbootstrap.com/docs/5.0/getting-started/introduction/'
+              img='https://blog.templatetoaster.com/wp-content/uploads/2019/09/What-is-Bootstrap.jpg'
             />
             <TutorialTemplate
-              description='Welcome to AWS Fundamentals: Going Cloud-Native'
-              URL='https://www.coursera.org/learn/aws-fundamentals-going-cloud-native/home/welcome'
-              img='https://miro.medium.com/max/700/1*b_al7C5p26tbZG4sy-CWqw.png'
+              description='React – A JavaScript library for building user interfaces'
+              URL='https://reactjs.org/docs/getting-started.html'
+              img='https://miro.medium.com/max/700/1*yjH3SiDaVWtpBX0g_2q68g.png'
             />
             <TutorialTemplate
               description='React Bootstrap - The most popular front-end framework Rebuilt for React.'
@@ -37,12 +37,53 @@ class Blog extends Component {
               URL='https://tleunen.github.io/react-mdl/components/'
               img='https://reactscript.com/wp-content/uploads/2016/04/React-MDL.png'
             />
+
+            <TutorialTemplate
+              description='Jest · Delightful JavaScript Testing framework maintained by Facebook, Inc.'
+              URL='https://jestjs.io/docs/en/getting-started'
+              img='https://ms314006.github.io/static/61b2001ca7ff66bffe5604dc0c52016d/5a4bd/Jest.jpg'
+            />
+            <TutorialTemplate
+              description='Jira | Issue & Project Tracking Software | Atlassian'
+              URL='https://www.atlassian.com/software/jira'
+              img='https://www.herzum.com/wp-content/uploads/2020/08/jira.jpg'
+            />
             <TutorialTemplate
               description='Vue is a progressive framework for building user interfaces'
               URL='https://vuejs.org/v2/guide/'
               img='https://miro.medium.com/max/1000/1*oZqGznbYXJfBlvGp5gQlYQ.jpeg'
             />
-            
+            <TutorialTemplate
+              description='Angular is a platform for building mobile and desktop web applications.'
+              URL='https://angular.io/docs'
+              img='https://cdn.searchenginejournal.com/wp-content/uploads/2019/04/the-seo-guide-to-angular-760x400.png'
+            />
+            <TutorialTemplate
+              description='AWS Certified Cloud Practitioner Training 2020'
+              URL='https://www.youtube.com/watch?v=3hLmDS179YE'
+              img='https://www.testpreptraining.com/blog/wp-content/uploads/2019/11/how-to-crack-aws-cloud-practitioner-certification-exam.jpg'
+            />
+            <TutorialTemplate
+              description='Welcome to AWS Fundamentals: Going Cloud-Native'
+              URL='https://www.coursera.org/learn/aws-fundamentals-going-cloud-native/home/welcome'
+              img='https://miro.medium.com/max/700/1*b_al7C5p26tbZG4sy-CWqw.png'
+            />
+
+            <TutorialTemplate
+              description='Master SEO Tools & Strategies - Earn a Certificate Online'
+              URL='https://www.coursera.org/specializations/seo?utm_source=gg&utm_medium=sem&utm_campaign=14-SEO-UCDavis-US&utm_content=14-SEO-UCDavis-US&campaignid=365815267&adgroupid=33419324134&device=c&keyword=seo%20marketing&matchtype=b&network=g&devicemodel=&adpostion=&creativeid=161355671907&hide_mobile_promo&gclid=CjwKCAiAirb_BRBNEiwALHlnDxRAPj8LY-pGAjX4lLPG-tabaKDrG_I6Kt8VaANgrEn6qW0g5R_unhoC7sUQAvD_BwE'
+              img='https://miro.medium.com/max/700/1*0ifJ0FIu-phAq9z4_h4OKg.png'
+            />
+            <TutorialTemplate
+              description='Deploying Node.js App on Heroku'
+              URL='http://fullstackcorner.com/deploying-node-js-app-on-heroku/'
+              img='http://fullstackcorner.com/wp-content/uploads/2017/06/herokuNode.jpg'
+            />
+            <TutorialTemplate
+              description='Netlify: All-in-one platform for automating modern web projects'
+              URL='https://docs.netlify.com/#get-started'
+              img='https://cdn.sanity.io/images/ti7si9cx/production/656e951d31f3dc0f061a57466d01def70a81a6af-1500x1000.gif?w=1382'
+            />
           </Grid>
         </div>
       );
@@ -76,10 +117,31 @@ class Blog extends Component {
               img='https://deployplace.com/uploads/gitlab-vs-github/gitlab-vs-github.jpg'
             />
             <NotesTemplate
+              description='How Your Front-end Code Impacts Google Ranking: Top 5 Risky Areas'
+              URL='https://medium.com/@stanislavgurin/how-your-front-end-code-impacts-google-ranking-top-5-risky-areas-8123513fd6ba'
+              img='https://miro.medium.com/max/700/1*0ifJ0FIu-phAq9z4_h4OKg.png'
+            />
+            <NotesTemplate
               description='E-commerce Shopping Cart by using React'
               URL='https://www.youtube.com/watch?v=02ieJ1YXZM4'
               img='https://codingwithbasir.com/wp-content/uploads/2020/12/reactcart.png'
             />
+            <NotesTemplate
+              description='React: Write a Simple Counter'
+              URL='https://forum.freecodecamp.org/t/react-write-a-simple-counter/168359'
+              img='https://codingwithbasir.com/wp-content/uploads/2020/12/reactcart.png'
+            />
+            <NotesTemplate
+              description='How to get the value of an input field using ReactJS?'
+              URL='https://stackoverflow.com/questions/36683770/how-to-get-the-value-of-an-input-field-using-reactjs'
+              img='https://codingwithbasir.com/wp-content/uploads/2020/12/reactcart.png'
+            />
+            <NotesTemplate
+              description='How to deploy React App to GitHub Pages'
+              URL='https://medium.com/the-andela-way/how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes-8c5f665a2d2a'
+              img='https://miro.medium.com/max/700/1*5ybVj54fnQOms-TmENQArA.png'
+            />
+
             <NotesTemplate
               description='Articles, tutorials, snippets'
               URL='https://www.taniarascia.com/blog'

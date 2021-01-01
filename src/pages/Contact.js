@@ -8,8 +8,8 @@ import {
   FooterLinkList,
   Textfield,Icon
 } from 'react-mdl';
-import ContactFooter from './ContactFooter';
-import ContactForm from './ContactForm';
+import ContactFooter from '../components/ContactFooter';
+import ContactForm from '../components/ContactForm';
 import './../App.css';
 
 export class Contact extends Component {

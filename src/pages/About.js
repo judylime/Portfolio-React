@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Grid, Cell ,Button} from 'react-mdl';
-import AboutSkills from './AboutSkills';
+import AboutSkills from '../components/AboutSkills';
 
 class About extends Component {
   render() {

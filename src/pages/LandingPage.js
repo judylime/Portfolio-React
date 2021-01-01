@@ -28,14 +28,6 @@ export class LandingPage extends Component {
                 >
                   <i className='fa fa-linkedin' aria-hidden='true'></i>
                 </a>
-                {/* PortfolioSite */}
-                <a
-                  href='https://judylime.github.io/Portfolio-JS/'
-                  rel='noopener noreferrer'
-                  target='_blank'
-                >
-                  <i className='fa fa-globe' aria-hidden='true'></i>
-                </a>
                 {/* Github */}
                 <a
                   href='https://github.com/judylime'
@@ -44,15 +36,6 @@ export class LandingPage extends Component {
                 >
                   <i className='fa fa-github' aria-hidden='true'></i>
                 </a>{' '}
-                {/* Gitlab */}
-                <a
-                  href='https://gitlab.com/JudyL'
-                  rel='noopener noreferrer'
-                  target='_blank'
-                >
-                  <i className='fab fa-gitlab' aria-hidden='true'></i>
-                </a>
-                <i class=''></i>
                 {/* Freecodecamp */}
                 <a
                   href='https://www.freecodecamp.org/judylime'
@@ -61,6 +44,32 @@ export class LandingPage extends Component {
                 >
                   <i className='fa fa-free-code-camp' aria-hidden='true'></i>
                 </a>
+                {/* Gitlab */}
+                <a
+                  href='https://gitlab.com/JudyL'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
+                  <i className='fa fa-gitlab' aria-hidden='true'></i>
+                </a>
+                
+                {/* PortfolioSite */}
+                <a
+                  href='https://judylime.github.io/Portfolio-JS/'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
+                  <i className='fa fa-globe' aria-hidden='true'></i>
+                </a>
+                {/* Stackoverflow */}
+                {/* <a
+                  href='https://stackoverflow.com/users/13543305/judylime'
+                  rel='noopener noreferrer'
+                  target='_blank'
+                >
+                  <i className='fab fa-stackoverflow' aria-hidden='true'></i>
+                </a>
+                <i class=''></i> */}
               </div>
             </div>
             <br />
