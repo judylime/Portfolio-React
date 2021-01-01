@@ -1,11 +1,11 @@
 import React from 'react';
 import { Switch, Route } from 'react-router-dom';
 
-import LandingPage from '../pages/LandingPage';
-import About from '../pages/About';
-import Projects from '../pages/Projects';
-import Blog from '../pages/Blog';
-import Contact from '../pages/Contact';
+import LandingPage from './LandingPage';
+import About from './About';
+import Projects from './Projects';
+import Blog from './Blog';
+import Contact from './Contact';
 
 const Main = () => (
   <Switch>
@@ -14,6 +14,7 @@ const Main = () => (
     <Route exact path='/projects' component={Projects} />
     <Route exact path='/blog' component={Blog} />
     <Route exact path='/contact' component={Contact} />
+    <Route exact path='/Portfolio-React' component={LandingPage} />
   </Switch>
 );
 

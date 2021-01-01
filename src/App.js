@@ -7,7 +7,7 @@ import {
   Drawer,
   Content
 } from 'react-mdl';
-import Main from './components/Main';
+import Main from './pages/Main';
 import { Link } from 'react-router-dom';
 import './App.css';
 import SearchBar from './components/SearchBar';
