@@ -154,6 +154,22 @@ class Blog extends Component {
         <div className='page-content'>
           <Grid>
             <InterviewTemplate
+              description='edabit: The easiest way to learn coding'
+              URL='https://edabit.com/challenges'
+              img='https://austinkladke.files.wordpress.com/2019/09/edabit_fastest_way_to_learn.png?w=656'
+            />
+            <InterviewTemplate
+              description='Data structure, Algorithm & 
+              Object-Oriented Design'
+              URL='https://leetcode.com/problems/two-sum/'
+              img='https://res.cloudinary.com/practicaldev/image/fetch/s--u2bcoOHC--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/9da6rnlxgxq8fv8degu4.png'
+            />
+            <InterviewTemplate
+              description='Coderbyte is the #1 website for technical interview prep and coding challenges'
+              URL='https://coderbyte.com/profile/superlianou'
+              img='https://ksr-ugc.imgix.net/assets/029/406/416/90153f9634ea486e39dc91cef650b3ec_original.png?ixlib=rb-2.1.0&w=700&fit=max&v=1591739748&auto=format&frame=1&q=92&s=5c65c8fc558c413a843a1ddcf0c662aa'
+            />
+            <InterviewTemplate
               description='Workflow Automation '
               URL='https://www.pipedrive.com/en/blog/workflow-automation'
               img='https://cms.pipedriveassets.com/workflow-automation.gif'
@@ -206,18 +222,8 @@ class Blog extends Component {
               URL='https://javascript30.com/'
               img='https://res.cloudinary.com/practicaldev/image/fetch/s--fni3zW3X--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/ibunvefphkr79qsx6gef.png'
             />
+            
             <InterviewTemplate
-              description='edabit: The easiest way to learn coding'
-              URL='https://edabit.com/challenges'
-              img='https://austinkladke.files.wordpress.com/2019/09/edabit_fastest_way_to_learn.png?w=656'
-            />
-            <InterviewTemplate
-              description='Data structure, Algorithm & 
-              Object-Oriented Design'
-              URL='https://leetcode.com/problems/two-sum/'
-              img='https://res.cloudinary.com/practicaldev/image/fetch/s--u2bcoOHC--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/9da6rnlxgxq8fv8degu4.png'
-            />
-            <TutorialTemplate
               description='12 Beginner Python Projects - Youtube Coding Course'
               URL='https://www.youtube.com/watch?v=8ext9G7xspg'
               img='https://hackr.io/blog/python-projects/thumbnail/large'
