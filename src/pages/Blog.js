@@ -177,7 +177,16 @@ class Blog extends Component {
               URL='https://medium.com/the-andela-way/how-to-deploy-your-react-application-to-github-pages-in-less-than-5-minutes-8c5f665a2d2a'
               img='https://miro.medium.com/max/700/1*5ybVj54fnQOms-TmENQArA.png'
             />
-
+            <NotesTemplate
+              description='Block Formatting Contexts in CSS : A Block Formatting Context(BFC) is part of the visual CSS rendering of a web page in which block boxes are laid out. '
+              URL='https://medium.com/@ritz078/block-formatting-contexts-in-css-3a9555355019'
+              img='https://miro.medium.com/max/700/1*DsrHwttBVg7aNg41VJxy0g.png'
+            />
+            <NotesTemplate
+              description='Issue with babel-jest dependency when running npm start in a React app'
+              URL='https://stackoverflow.com/questions/53089122/issue-with-babel-jest-dependency-when-running-npm-start-in-a-react-app'
+              img='https://i2.wp.com/everyday.codes/wp-content/uploads/2020/02/opengraph.png?w=796&ssl=1'
+            />
             <NotesTemplate
               description='Articles, tutorials, snippets'
               URL='https://www.taniarascia.com/blog'
@@ -189,6 +198,27 @@ class Blog extends Component {
       return (
         <div className='page-content'>
           <Grid>
+            <InterviewTemplate
+              description='Top 50 PHP Interview Questions You Must Prepare in 2021'
+              URL='https://www.edureka.co/blog/interview-questions/php-interview-questions/'
+              img='https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/01/1280px-PHP-logo.svg_-528x285.png'
+            />
+            <InterviewTemplate
+              description='Top 50 MySQL Interview Questions & Answers	'
+              URL='https://career.guru99.com/top-50-mysql-interview-questions-answers/'
+              img='https://career.guru99.com/wp-content/uploads/2014/07/MySQL.svg_.png'
+            />
+            <InterviewTemplate
+              description='44 Practical Apache Web Server Interview Questions with Answers'
+              URL='https://geekflare.com/apache-interview-questions-answers/'
+              img='https://pbs.twimg.com/media/DWbNPSFV4AAtIry?format=jpg&name=small'
+            />
+
+
+
+
+
+
             <InterviewTemplate
               description='edabit: The easiest way to learn coding'
               URL='https://edabit.com/challenges'
