@@ -199,6 +199,11 @@ class Blog extends Component {
         <div className='page-content'>
           <Grid>
             <InterviewTemplate
+              description='https://www.onlineinterviewquestions.com/wordpress-interview-questions/'
+              URL='https://www.onlineinterviewquestions.com/wordpress-interview-questions/'
+              img='https://mk0testdemonsitv8fjd.kinstacdn.com/wp-content/uploads/2019/05/wordpress.gif'
+            />
+            <InterviewTemplate
               description='Top 50 PHP Interview Questions You Must Prepare in 2021'
               URL='https://www.edureka.co/blog/interview-questions/php-interview-questions/'
               img='https://d1jnx9ba8s6j9r.cloudfront.net/blog/wp-content/uploads/2019/01/1280px-PHP-logo.svg_-528x285.png'
@@ -213,11 +218,6 @@ class Blog extends Component {
               URL='https://geekflare.com/apache-interview-questions-answers/'
               img='https://pbs.twimg.com/media/DWbNPSFV4AAtIry?format=jpg&name=small'
             />
-
-
-
-
-
 
             <InterviewTemplate
               description='edabit: The easiest way to learn coding'

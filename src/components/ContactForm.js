@@ -47,7 +47,7 @@ export class Contact extends Component {
               placeholder='Message'
               onChange={() => {}}
               label='Text lines...'
-              rows={3}
+              rows={1}
               style={{ width: '400px' }}
             />
             <br />

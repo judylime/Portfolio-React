@@ -23,6 +23,7 @@ export class Contact extends Component {
             </Cell>
             <Cell col={6}>
               <Cell col={9} className='contact-grid'>
+                <br/>
                 <h2>
                   <a href='/Contact'>Let's Connect</a>
                 </h2>{' '}
