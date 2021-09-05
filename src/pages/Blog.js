@@ -20,7 +20,7 @@ class Blog extends Component {
             <TutorialTemplate
               description='Bootstrap · The most popular HTML, CSS, and JS library in the World'
               URL='https://getbootstrap.com/docs/5.0/getting-started/introduction/'
-              img='https://getbootstrap.com/docs/5.0/assets/img/bootstrap-icons@2x.png'
+              img='https://blog.templatetoaster.com/wp-content/uploads/2019/09/What-is-Bootstrap.jpg'
             />
             <TutorialTemplate
               description='React – A JavaScript library for building user interfaces'
@@ -36,11 +36,6 @@ class Blog extends Component {
               description='React-MDL : for Material Design Lite, a library of vanilla components maintained by Google.'
               URL='https://tleunen.github.io/react-mdl/components/'
               img='https://reactscript.com/wp-content/uploads/2016/04/React-MDL.png'
-            />
-            <TutorialTemplate
-              description='Sass is known as one of the most mature ways of extending CSS. It is a preprocessor for CSS.'
-              URL='https://sass-lang.com/'
-              img='https://i1.wp.com/blog.alexdevero.com/wp-content/uploads/2015/03/sass-logo.jpg?resize=1024%2C512&ssl=1'
             />
 
             <TutorialTemplate
@@ -88,37 +83,6 @@ class Blog extends Component {
               description='Netlify: All-in-one platform for automating modern web projects'
               URL='https://docs.netlify.com/#get-started'
               img='https://cdn.sanity.io/images/ti7si9cx/production/656e951d31f3dc0f061a57466d01def70a81a6af-1500x1000.gif?w=1382'
-            />
-            <TutorialTemplate
-              description='A modern responsive front-end framework based on Material Design'
-              URL='https://materializecss.com/'
-              img='https://colinstodd.com/images/posts/matcss-min.png'
-            />
-            <TutorialTemplate
-              description='Meteor provides a platform to develop apps for both the web and mobile platforms. '
-              URL='https://www.meteor.com/developers/tutorials'
-              img='https://www.valuecoders.com/blog/wp-content/uploads/2015/10/Meteor-400x270.png'
-            />
-            <TutorialTemplate
-              description='The Polymer Project is a JS library that was initiated by chrome with the purpose of making the web better.'
-              URL='https://www.polymer-project.org/'
-              img='https://image.slidesharecdn.com/karolemeas-google-polymer-170221091355/95/google-polymer-framework-1-638.jpg?cb=1487744865'
-            />
-            <TutorialTemplate
-              description='Foundation is another front-end development tool that can be used on any device, medium, or platform. '
-              URL='https://get.foundation/learn/tutorials.html'
-              img='https://uploads.sitepoint.com/wp-content/uploads/2016/11/1479848254jsf-logo-300x93.png'
-            />
-
-            <TutorialTemplate
-              description='Chrome DevTools is a set of web developer tools built directly into the Google Chrome browser.'
-              URL='https://developers.google.com/web/tools/chrome-devtools'
-              img='https://developers.google.com/web/tools/chrome-devtools/images/panels/elements.png'
-            />
-            <TutorialTemplate
-              description='The web speech API is another open-source tool launched by Google. It is used to add speech recognition to front-end applications.'
-              URL='https://wicg.github.io/speech-api/'
-              img='https://nullcast.io/content/images/2020/04/web_speech.png'
             />
           </Grid>
         </div>
@@ -288,7 +252,7 @@ class Blog extends Component {
               URL='https://javascript30.com/'
               img='https://res.cloudinary.com/practicaldev/image/fetch/s--fni3zW3X--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/i/ibunvefphkr79qsx6gef.png'
             />
-
+            
             <InterviewTemplate
               description='12 Beginner Python Projects - Youtube Coding Course'
               URL='https://www.youtube.com/watch?v=8ext9G7xspg'
@@ -301,11 +265,6 @@ class Blog extends Component {
       return (
         <div className='page-content'>
           <Grid>
-            <BlogTemplate
-              description='TOP 15 FRONT-END DEVELOPMENT TOOLS TO USE IN 2020'
-              URL='https://yugasa.com/web/top-15-front-end-development-tools-to-use-in-2020/'
-              img='https://yugasa.com/wp-content/uploads/2020/09/top-15-front-end-development-tools-to-use-in-2020.jpg'
-            />
             <BlogTemplate
               description='Ark Investment ETF Track Application'
               URL='https://ark-track.alientomatoinvestment.com/'

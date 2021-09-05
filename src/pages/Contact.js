@@ -66,14 +66,13 @@ export class Contact extends Component {
                       ></i>
                     </a>
                     <a href='' title='' className=''>
-                      <i class='fas fa-download'></i>
+                      <i class='fas fa-file-pdf' aria-hidden='true'></i>
                     </a>
-
                     <a href='' title='' className=''>
-                      <i class='fas fa-file-download'></i>
+                      <i class='fas fa-file-download' aria-hidden='true'></i>
                     </a>
-
-                    {/* <Icon name='print' /> */}
+                    <Icon name='print' />
+                    
                   </div>
                 </div>
                 <div className='contact-list'></div>
