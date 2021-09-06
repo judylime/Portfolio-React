@@ -9,6 +9,8 @@ import GoogleClone from '../image/GoogleClone.jpg';
 import HappyBday from '../image/HappyBday.jpg';
 import PhotoEditor from '../image/PhotoEditor.jpg';
 import ToDoList from '../image/ToDoList.jpg';
+import CRMSystem from '../image/crm.png';
+import DroneDelivery from '../image/DroneDelivery.jpeg';
 
 class Projects extends Component {
   constructor(props) {
@@ -21,6 +23,20 @@ class Projects extends Component {
       return (
         <div className='page-content'>
           <Grid container spacing={0} justify='center' alignItems='center' align="center">
+            <ProjectsTemplate
+              img={DroneDelivery}
+              projects='DroneDelivery'
+              description='Created a REST API for the Customer Relationship Management(CRM) system by using Spring, Hibernate, Spring Boot with JPA'
+              GithubURL='https://github.com/judylime/DevConnector-MERN_Stack'
+              DemoURL='https://calm-tor-62311.herokuapp.com/'
+            />
+            <ProjectsTemplate
+              img={CRMSystem}
+              projects='CRM'
+              description='Created a REST API for the Customer Relationship Management(CRM) system by using Spring, Hibernate, Spring Boot with JPA'
+              GithubURL='https://github.com/judylime/DevConnector-MERN_Stack'
+              DemoURL='https://calm-tor-62311.herokuapp.com/'
+            />
             <ProjectsTemplate
               img={DevConnector}
               projects='DevCommunity'

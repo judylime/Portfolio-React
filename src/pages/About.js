@@ -22,16 +22,16 @@ class About extends Component {
                   style={{ height: '200px', padding: '2em' }}
                 />
                 <h2 style={{ paddingTop: '1em' }}>Judy Lian</h2>
-                <h4 style={{ color: 'grey' }}>Frontend Web Developer</h4>
+                <h4 style={{ color: 'grey' }}>Full Stack Developer</h4>
+                <h6 style={{ color: 'grey' }}>Santa Clara, CA 95051 ｜US Citizen</h6>
                 <hr />
                 <p style={{ margin: 'auto', paddingTop: '1em', width: '85%' }}>
                   Courteous and enthusiastic, I am interested in IT and
                   everything in its orbit. I began to be fascinated by web
                   programming, e.g. developing apps and building websites.
                   <br />
-                  I'm a Front-End Developer in Santa Clara, CA. I have serious
-                  passion for UI effects, animations and creating intuitive,
-                  dynamic user experiences.
+                  Has a wide range of project experience, including web application development, building infrastructure, and frameworks.
+
                 </p>
               </div>
               <br/>
@@ -52,11 +52,12 @@ class About extends Component {
                     <p>Front-end</p>
                   </Cell>
                   <Cell col={10}>
-                    <AboutSkills skill='HTML/CSS' progress={88} />
-                    <AboutSkills skill='Bootstrap' progress={86} />
+                    
                     <AboutSkills skill='JavaScript/ES6' progress={82} />
+                    <AboutSkills skill='React' progress={86} />
+                    <AboutSkills skill='Bootstrap' progress={86} />
+                    <AboutSkills skill='HTML/CSS' progress={88} />
                     <AboutSkills skill='jQuery' progress={80} />
-                    <AboutSkills skill='React' progress={76} />
                     <AboutSkills skill='Redux' progress={70} />
                   </Cell>
                 </Grid>
@@ -65,10 +66,18 @@ class About extends Component {
                     <p> Back-end </p>
                   </Cell>
                   <Cell col={10}>
-                    <AboutSkills skill='MongoDB' progress={85} />
+                    <AboutSkills skill='Java' progress={85} />
+                    <AboutSkills skill='SQL' progress={85} />
                     <AboutSkills skill='NodeJS' progress={75} />
+                    <AboutSkills skill='MongoDB' progress={75} />
+                    <AboutSkills skill='Spring' progress={75} />
+                    <AboutSkills skill='Spring Boot' progress={75} />
+                    <AboutSkills skill='Hibernate' progress={75} />
+                    <AboutSkills skill='TomCat' progress={75} />
+                    <AboutSkills skill='Python' progress={70} />
                     <AboutSkills skill='Mongoose' progress={70} />
                     <AboutSkills skill='Express' progress={70} />
+                    
                   </Cell>
                 </Grid>
                 <Grid>
@@ -86,8 +95,9 @@ class About extends Component {
                     <p>Testing</p>
                   </Cell>
                   <Cell col={10}>
+                    <AboutSkills skill='Unit Testing' progress={80} />
                     <AboutSkills skill='Chrome DevTools' progress={80} />
-                    <AboutSkills skill='Jest' progress={80} />
+                    <AboutSkills skill='Jest' progress={70} />
                   </Cell>
                 </Grid>
                 <Grid>
